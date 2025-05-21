@@ -1,0 +1,163 @@
+keywords:
+
+
+NctID: 
+
+NCT06598631
+
+patient: Chronic Kidney Disease and is on a antihyperglycemic treatment = 1
+
+
+NCT02604160
+Patient: recieving hemodialysis
+
+
+
+NCT01936376
+patient: has neck cancer, Receiving Cisplatin Chemotherapy, had renal injury = 3
+
+
+
+NCT00401973
+diagonesd with schizophrenia = 1
+
+
+NCT06169982
+has diabetes and is recieving insulin = 2
+
+
+
+NCT06148272
+patient is overweight, has a BMI of 30, will adhere to contraception restrictions. = 3
+
+
+
+A 39-year-old man with a history of chronic kidney disease undergoing hemodialysis presents for routine evaluation. He has a medical history significant for neck cancer, for which he is receiving cisplatin chemotherapy, and a prior renal injury. His comorbid conditions include diabetes mellitus, for which he is on insulin therapy and antihyperglycemic treatment, and schizophrenia. The patient is overweight with a BMI of 30. He has agreed to adhere to contraception restrictions. His physical exam is unremarkable except for signs consistent with his underlying conditions. Laboratory tests and imaging studies are pending for further assessment of his renal function and ongoing cancer treatment.
+
+
+1, NCT02604160, 1
+1, NCT00401973, 1
+1, NCT06169982, 2
+1, NCT06148272, 3
+
+
+##
+
+NCT06362265
+
+Diabetes, 
+
+Glycated hemoglobin (HbA1c) is 8% , BMI of 40.
+
+
+
+## Wight loss
+
+
+
+NCT00456885
+is a female with no heart diseasse = 2, sedentary lifestyle. is non smoker = 4 + 1
+
+
+NCT04081337
+bmi in range, 
+ + 1 and obese + 1
+willing to corporate with clinicla staff and follow study procedures
+
+
+NCT06606106
+bmi + 1, fat + 1
+
+NCT04881760
+fat + 1, bmi + 1,
+
+
+NCT06191848
+follow procedures + 1, fat + 1
+
+
+NCT00287352
+obese + 1
+
+NCT06009653
+obese + 1
+
+NCT05548231
+obese + 1, bmi + 1, lifestyle + 1, 
+
+NCT05872620
+obese + 1, bmi + 1, 
+
+
+NCT05929066
+obese + 1, bmi + 1,
+
+
+NCT05623839
+obese + 1
+
+NCT06191848
+obese + 1
+
+
+
+
+
+
+
+
+##Alziemer's
+
+A 62-year-old man sees a neurologist for progressive memory loss and jerking movements of the lower extremities. The patient reports a gradual decline in memory. Neurologic examination confirms severe cognitive deficits and memory dysfunction. 
+An electroencephalogram shows generalized periodic sharp waves. Neuroimaging studies show moderately advanced cerebral atrophy. A cortical biopsy shows diffuse vacuolar changes of the gray matter 
+with reactive astrocytosis but no inflammatory infiltration.",
+
+
+
+NCT01459016
+memory loss + 1, age + 1, testing + 1
+
+
+NCT05457998
+alziemer + 1, age + 1, 
+
+NCT02624778
+alziemer + 1, men + 1, 
+
+
+NCT05026866
+alzimer + 1, 
+
+NCT05108922
+alziemer + 1, memory function change + 1
+
+
+NCT01662882
+alzhiemer + 1, age + 0.5, evidence + 1
+
+NCT01874756
+schizophrenia + age = 1
+
+NCT02245737
+alzhiemer + 1, gradual change of memory + 1, 
+
+
+NCT01561430
+alzhiemer + 1, gradual memeory loss + 1,
+
+NCT04408625
+dementia + 1, age + 1, 
+
+NCT02614131
+alzhimer + 1, age + 1
+
+
+NCT03518073
+gradual + 1, alziemer + 1
+
+
+
+
+
+
+

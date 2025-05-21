@@ -1,0 +1,20 @@
+{
+    "NCT02359643": {
+        "relevance_explanation": "The patient is a 2-year-old boy diagnosed with Kawasaki Disease, which is the target condition of the clinical trial. The patient's symptoms such as high fever, conjunctivitis, strawberry tongue, inflammation of the hands and feet, desquamation of the skin of the fingers and toes, and cervical lymphadenopathy align with the Kawasaki Disease criteria. The patient's laboratory data and echocardiogram results are also relevant to the trial.",
+        "relevance_score_R": 95.0,
+        "eligibility_explanation": "The patient meets most of the inclusion criteria for the trial, including being a child with Kawasaki Disease, having a fever for more than 5 days, and exhibiting several of the specified symptoms. The patient is not excluded by any of the exclusion criteria, as there is no mention of corticosteroid treatment, IVIG treatment at another hospital, a disease that could mimic Kawasaki disease, a previous diagnosis of Kawasaki disease, or an inability to take aspirin. However, there is not enough information to determine whether the patient meets the inclusion criterion related to dysmorphous skin rashes or the exclusion criterion related to the collection of follow-up data.",
+        "eligibility_score_E": 85.0
+    },
+    "NCT02114099": {
+        "relevance_explanation": "The patient is a 2-year-old boy diagnosed with Kawasaki Disease and has a coronary artery aneurysm, which is the target condition of the clinical trial. However, the patient does not meet the age requirement of the trial, which is 10 years old. Therefore, the patient is partially relevant to the clinical trial.",
+        "relevance_score_R": 70.0,
+        "eligibility_explanation": "The patient meets one of the inclusion criteria, which is having a clinical diagnosis of Kawasaki Disease with a giant aneurysm. However, the patient does not meet the age requirement of the trial. The patient does not meet any of the exclusion criteria, as there is no evidence of the patient having a history of coronary artery bypass graft surgery, active hepatitis or persistent abnormal liver function, a past history of rhabdomyolysis, or being a female subject who is pregnant or planning for child-bearing during the study periods.",
+        "eligibility_score_E": -20.0
+    },
+    "NCT02486783": {
+        "relevance_explanation": "The patient is a 2-year-old boy presenting with symptoms of a severe inflammatory condition, possibly Kawasaki disease. The clinical trial is focused on neonatal sepsis, infection, and meningitis in Surinamese neonates. The patient's age and condition do not align with the target population and conditions of the trial, making the patient's relevance to the trial low.",
+        "relevance_score_R": 10.0,
+        "eligibility_explanation": "The patient does not meet the inclusion criteria due to his age and the nature of his symptoms. The exclusion criteria are not applicable to the patient, as they pertain to neonates and maternal health conditions. Therefore, the patient is ineligible for the trial.",
+        "eligibility_score_E": -10.0
+    }
+}

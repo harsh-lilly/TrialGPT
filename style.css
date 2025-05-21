@@ -1,0 +1,24 @@
+/* style.css */
+.header-container {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    /* bottom: -5px; */
+    width: 100vw;  /* Full viewport width */
+    background-color: #F01716 !important;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 999;
+    display: flex;
+    justify-content: center;  /* Horizontally centers content */
+    align-items: center;  /* Vertically centers content */
+}
+
+.header-text {
+    font-size: 40px;
+    color: white !important;
+    font-weight: bold;
+    margin: 5px;
+}
+
+

@@ -1,0 +1,6 @@
+# Exclude environment files
+.env
+
+# Exclude trial information file
+trial_info.json
+trials_data.json
