@@ -1,269 +1,271 @@
 [
     {
-        "trial_id": "NCT06690996",
-        "brief_title": "A Study of LY4005130 in Healthy Participants",
-        "official_title": "A Phase 1, Randomized, Placebo-controlled, Investigator and Participant Blinded, Single-ascending Dose and Multiple-ascending Dose Study to Evaluate Safety, Tolerability, and Pharmacokinetics of LY4005130 in Healthy Participants.",
+        "trial_id": "NCT05508789",
+        "brief_title": "A Study of Donanemab (LY3002813) in Participants With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-ALZ 5)",
+        "official_title": "Global Study to Investigate Safety and Efficacy of Donanemab in Early Symptomatic Alzheimer's Disease",
         "lillyAlias": [
-            "J5D-MC-FPAB"
+            "I5T-MC-AACO"
         ],
-        "brief_summary": "The purpose of this study is to evaluate how well LY4005130 is tolerated and what side effects may occur in healthy participants. The study drug will be administered either subcutaneously (SC) (under the skin) or intravenously (IV) (into a vein in the arm). Blood tests will be performed to check how much LY4005130 gets into the bloodstream and how long it takes the body to eliminate it.\n\nPart A for the single-ascending doses (SAD) of the study will last about 12 weeks with 9 visits. Part B for the multiple-ascending doses (MAD) of the study will either last about 16 weeks with 13 visits or 20 weeks with 12 visits not counting the time for screening.",
+        "brief_summary": "The reason for this study is to assess the safety and efficacy of donanemab in participants with early Alzheimer's disease. The study duration including screening and follow-up is up to 93 weeks.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Alzheimer Disease",
+            "Dementia",
+            "Brain Diseases",
+            "Central Nervous System Diseases",
+            "Nervous System Diseases",
+            "Tauopathies",
+            "Neurodegenerative Diseases",
+            "Neurocognitive Disorders",
+            "Mental Disorders"
+        ],
+        "drugs_list": [
+            "Donanemab",
+            "Placebo"
+        ],
+        "enrollment": 1500,
+        "inclusion_criteria": "inclusion criteria: \n\n Gradual and progressive change in memory function reported by the participant or informant for \u22656 months\n A MMSE score of 20 to 28 (inclusive) at Day 601 or 1.\n Meet flortaucipir F18 scan (central read) criteria\n Meet florbetapir F18 scan (central read) criteria\n Have a study partner who will provide written informed consent to participate, is in frequent contact with the participant (defined as at least 10 hours per week), and will accompany the participant to the study or be available by telephone at designated times.\n A second study partner may serve as backup. The study partner(s) is/are required to accompany the participant for signing consent. The study partner must be present on all days the cognitive and functional scales are administered.\n If a participant has a second study partner, it is preferred that 1 study partner be primarily responsible for the CDR and the ADCS-ADL assessments.\n Days requiring the following assessments and scales must have a study partner available by telephone if not accompanying participant for the following assessments\n\n   AEs and concomitant medications\n   CDR, and\n   ADCS-ADL\n Stable concomitant symptomatic AD medications and other medications that may impact cognition for at least approximately 30 days prior to randomization.",
+        "exclusion_criteria": "exclusion criteria: \n\nHas significant neurological disease affect the central nervous system other than AD, that may affect cognition or ability to complete the study, including but not limited to, other dementias, serious infection of the brain, Parkinson's disease, multiple concussions, or epilepsy or recurrent seizures (except febrile childhood seizures).\nHas current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic (other than AD), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses in this study; or has a life expectancy of \\<24 months.\nHistory of cancer within the last 5 years, except of non-metastatic basal and/or squamous cell carcinoma of the skin, in situ cervical cancer, nonprogressive prostate cancer, or other cancers with low risk of recurrence or spread.\nContraindication to MRI or PET scans",
+        "keywords": [
+            "Alzheimer's",
+            "Dementia",
+            "Cognitive Impairment",
+            "Amyloid Plaque"
+        ]
+    },
+    {
+        "trial_id": "NCT06297590",
+        "brief_title": "A First-In-Human Study of LY3954068 in Participants With Early Symptomatic Alzheimer's Disease",
+        "official_title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3954068 in Patients With Early Symptomatic Alzheimer's Disease",
+        "lillyAlias": [
+            "J4T-MC-OLAA"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the safety of LY3954068 in participants with early symptomatic Alzheimer's Disease (AD). The study will also investigate how much LY3954068 gets into the bloodstream and will test the effects of LY3954068 on markers of AD.\n\nThe study will be comprised of two parts, A and B. Part B is optional, and participants from Part A may also have the opportunity to join an optional bridging period to a separate potential study where participants would receive LY3954068. Each enrolled participant in Part A will receive a single dose of LY3954068 or placebo (no active drug) given into the spinal fluid. If conducted, each participant in Part B would receive 2 doses of either LY3954068 or placebo administered into the spinal fluid.\n\nThe study will last up to approximately 45 weeks for Part A, and, if conducted, 73 weeks for Part B, including the screening period.\n\nIf the optional bridging period is conducted, participants in Part A could be enrolled in the separate potential study for up to approximately 96 weeks, including the screening period.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE1"
         ],
         "diseases_list": [
-            "Healthy"
+            "Alzheimer Disease"
         ],
         "drugs_list": [
-            "LY4005130",
-            "LY4005130",
+            "LY3954068",
             "Placebo",
-            "Placebo"
+            "Flortaucipir F18"
         ],
-        "enrollment": 140,
-        "inclusion_criteria": "inclusion criteria: \n\n Are overtly healthy as determined by medical evaluation including medical history, physical examination, laboratory tests, vital signs, and 12-lead (electrocardiogram) ECG. If any values are outside the normal range and considered to be significant, for example, elevated white blood cell count, the respective test may be repeated once at the discretion of the investigator without consultation with the sponsor\n If enrolled as Japanese or Chinese, the entry requirements are as follows:\n\n   To qualify as a participant of first-generation Japanese origin, the participant, the participant's biological parents, and all of the participant's biological grandparents must be of exclusive Japanese descent and born in Japan\n   To qualify as Chinese for the purpose of this study, all 4 of the participant's biological grandparents must be of exclusive Chinese descent and born in China\n Have a body weight 45 kilogram (kg) or greater and body mass index greater than 18 and less than 32 kilogram per square meter (kg/m\u00b2)",
-        "exclusion_criteria": "exclusion criteria: \n\nAre an individual of childbearing potential (IOCBP)\nHave known allergies to LY4005130, related compounds, or any components of the formulation\nHave received a live vaccine within 28 days of screening or intend to do so during the study or within 28 days after the study\n\n  Non-live or inactivated vaccinations are allowed\n  Bacillus Calmette Guerin vaccine must not have been administered within 12 months before screening\nHad a surgical procedure within 12 weeks before screening;\n\n  during the study, or\n  within 28 days after the study\nHave a history of allergy to medications that could be used to treat infusion reactions, or to the drug excipients\nHave a history or presence of multiple or severe allergies, anaphylactic reaction to prescription or nonprescription drugs, significant history of atopy, or a history of severe posttreatment hypersensitivity reactions. These reactions include, but are not limited to, erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, and exfoliative dermatitis\nHave a diagnosis or history of malignant disease within 5 years prior to screening, with the following exceptions\n\n  Basal cell or squamous epithelial carcinomas of the skin that have been resected with no evidence of metastatic disease for 3 years, or\n  Cervical carcinoma in situ, with no evidence of recurrence within the 5 years prior to screening\nHave had breast cancer within the past 10 years\nHave a history of a primary immunodeficiency, splenectomy, or any underlying condition that predisposes the participant to infection that, in the opinion of the sponsor or investigator, poses an unacceptable risk to the participant\nHave a current or recent acute, active infection",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT04088396",
-        "brief_title": "A Study of Baricitinib (LY3009104) in Participants From 1 Year to Less Than 18 Years Old With Systemic Juvenile Idiopathic Arthritis (sJIA)",
-        "official_title": "Open-Label, Randomized Study With a Tocilizumab Reference Arm to Evaluate Safety, Efficacy and Pharmacokinetics of Baricitinib in Children From 1 to Less Than 18 Years of Age With Systemic Juvenile Idiopathic Arthritis.",
-        "lillyAlias": [
-            "I4V-MC-JAHU"
-        ],
-        "brief_summary": "The reason for this study is to see if the study drug baricitinib is safe and effective in participants from 1 year to less than 18 years old with systemic juvenile idiopathic arthritis (sJIA). Participants are assigned to 1 of 2 cohorts. In cohort 1, participants will receive baricitinib or tocilizumab reference. In cohort 2, participants will receive baricitinib.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Systemic Juvenile Idiopathic Arthritis"
-        ],
-        "drugs_list": [
-            "Baricitinib",
-            "Tocilizumab"
-        ],
-        "enrollment": 58,
-        "inclusion_criteria": "inclusion criteria: \n\n Participants must have a diagnosis of systemic Juvenile Idiopathic Arthritis (sJIA) as defined by International League of Associations for Rheumatology (ILAR) criteria with onset before the age of 16 years\n Participants must have at least 2 active joints at screening and baseline\n Cohort 1 (IL-6 inhibitor therapy naive): Participants who are at least 1 year and less than 18 years of age, except in countries that restrict use of tocilizumab in participants less than 2 years of age\n Cohort 2 (open-label baricitinib): Participants who are at least 1 year and less than 18 years of age",
-        "exclusion_criteria": "exclusion criteria: \n\nParticipants must not have polyarticular JIA (positive or negative for rheumatoid factor), extended oligoarticular JIA, enthesitis-related JIA, or juvenile psoriatic arthritis\nParticipants must not have persistent oligoarticular arthritis as defined by the ILAR criteria\nParticipants must not have a history or presence of any autoimmune inflammatory condition other than JIA\nParticipants must not have active anterior uveitis or are receiving concurrent treatment for anterior uveitis\nParticipants must not have active fibromyalgia or other chronic pain conditions that, in the investigator's opinion, would make it difficult to appropriately assess disease activity for the purposes of this study\nParticipants must not have biologic features of Macrophage Activation Syndrome (MAS) over the past 12 weeks\nParticipants must not have a current or recent (\\<4 weeks prior to baseline) clinically serious infection\nParticipants must not have a positive test for hepatitis B virus\nParticipants must not have evidence of active tuberculosis (TB) or untreated latent TB",
+        "enrollment": 32,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a body mass index (BMI) within the range 18 (17 for Japan participants) to 40 kilograms per square meter (kg/m\u00b2), inclusive, at screening.\n Have gradual and progressive change in memory function for greater than or equal to (\u2265) 6 months as reported by the participant or informant.\n Have a mini mental state examination (MMSE) score of 18 to 30 at screening.\n Have a clinical dementia rating (CDR) global score of 0.5 to 1.0, with a memory box score \u2265 0.5 at screening.\n Meet flortaucipir F18 positron emission tomography (PET) criteria, as defined in the TAUVID\u2122 FDA label (TAUVID\u2122 prescribing information, 2024), demonstrating evidence of tau pathology.\n Males who agree to follow contraceptive requirements, or women not of childbearing potential (WNOCBP).\n Participants must have up to 2 study partners who are with contact with the participant at least 10 hours per week and one of whom can attend study appointments.",
+        "exclusion_criteria": "exclusion criteria: \n\nHas current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterological, respiratory, endocrinologic, neurologic (other than Alzheimer's Disease), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses in this study; or has a life expectancy of less than (\\<)24 months.\nHave a sensitivity to flortaucipir F18.\nHave contraindication to magnetic resonance imaging (MRI), including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.\nHave a current exposure to an amyloid targeted therapy (ATT). Prior exposure to ATTs greater than 1 year from the last dose may be permitted at the discretion of the investigator and in consultation with the sponsor.\nHave previous exposure to any Investigational Medicinal Product administered intrathecal (IT) or previous exposure to any anti-tau therapy.\nHave a history of clinically significant back pain, back pathology and/or back injury (for example, degenerative disease, spinal deformity or spinal surgery) that may predispose to complications or technical difficulty with lumbar puncture.",
         "keywords": [
-            "Systemic",
-            "Fever",
-            "Flare",
-            "sJIA",
-            "JIA"
+            "Dementia",
+            "Brain Diseases",
+            "Central Nervous System Diseases",
+            "Nervous System Diseases",
+            "Tauopathies",
+            "Tau",
+            "Neurodegenerative Diseases",
+            "Neurocognitive Disorders",
+            "Mental Disorders",
+            "Mild Cognitive Impairment"
         ]
     },
     {
-        "trial_id": "NCT03773965",
-        "brief_title": "A Study of Baricitinib in Participants From 1 Year to Less Than 18 Years Old With Juvenile Idiopathic Arthritis",
-        "official_title": "A Phase 3 Multicenter Study to Evaluate the Long-Term Safety and Efficacy of Baricitinib in Patients From 1 Year to <18 Years of Age With Juvenile Idiopathic Arthritis (JIA)",
+        "trial_id": "NCT05026866",
+        "brief_title": "A Donanemab (LY3002813) Study in Participants With Preclinical Alzheimer's Disease (TRAILBLAZER-ALZ 3)",
+        "official_title": "A Study of Donanemab Versus Placebo in Participants at Risk for Cognitive and Functional Decline of Alzheimer's Disease",
         "lillyAlias": [
-            "I4V-MC-JAHX"
+            "I5T-MC-AACM"
         ],
-        "brief_summary": "The reason for this study is to see if the study drug baricitinib is safe and effective in the treatment of JIA in participants ages 1 to 17. This study is for participants that have been enrolled in studies I4V-MC-JAHV (NCT03773978) or I4V-MC-JAHU.",
+        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of donanemab in participants with preclinical Alzheimer's Disease (AD). Approximately 800 additional participants will be enrolled in a 12-month addendum to assess safety of a different titration regimen.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE3"
         ],
         "diseases_list": [
-            "Juvenile Idiopathic Arthritis"
+            "Alzheimer Disease"
         ],
         "drugs_list": [
-            "Baricitinib"
-        ],
-        "enrollment": 190,
-        "inclusion_criteria": "inclusion criteria: \n\n Participants must have completed a previous study of baricitinib for the treatment of JIA.",
-        "exclusion_criteria": "exclusion criteria: \n\nParticipants must not have had a permanent discontinuation of baricitinib in the prior study.\nParticipants must have not developed an allergy to baricitinib.",
-        "keywords": [
-            "Polyarticular JIA",
-            "Oligoarthritis",
-            "Juvenile psoriatic arthritis (JPsA)",
-            "Enthesitis-related juvenile idiopathic arthritis (ERA)",
-            "Systemic JIA with and without systemic features"
-        ]
-    },
-    {
-        "trial_id": "NCT06153355",
-        "brief_title": "A First-In-Human Study of LY3839840 in Healthy Participants",
-        "official_title": "Single- and Multiple-Ascending Dose Study to Evaluate the Safety and Pharmacokinetics of LY3839840 Following Oral Dosing in Healthy Participants",
-        "lillyAlias": [
-            "J4U-MC-KTAA"
-        ],
-        "brief_summary": "The main purpose of this first-in-human study to investigate the safety of LY3839840 in single and multiple doses, and how it's processed in the body when given in different amounts.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE1"
-        ],
-        "diseases_list": [
-            "Healthy"
-        ],
-        "drugs_list": [
-            "LY3839840",
-            "Placebo",
-            "Midazolam"
-        ],
-        "enrollment": 178,
-        "inclusion_criteria": "inclusion criteria: \n\nHealthy men and women. Women may only be included if they are of nonchildbearing potential\n\nFor Part C:\n\n\u2022 Part C of the study includes Chinese participants only. To qualify, the participants must be considered as native Chinese, defined as all the participant's biological grandparents being of Chinese origin\n\nFor Part D:\n\n Part D of the study includes Japanese participants only. To qualify, the participants must be first-generation Japanese, defined as the participant's biological parents, and all the participant's biological grandparents, being of exclusive Japanese descent, and being born in Japan\n Participants who are healthy as determined through medical evaluation including medical history, physical examination, laboratory tests, vital signs, and 12-lead (electrocardiogram ECG)\n Have a body mass index (BMI) of greater than or equal to 18 to less than or equal to 35 kilograms per square meter (kg/m\u00b2). For Parts C and D: BMI greater than or equal to 18 to less than or equal to 29 kilograms per square meter (kg/m\u00b2)\n Participants who have laboratory tests within the normal reference range for the population or CRU or have results with acceptable deviations that are judged by the investigator not to be clinically significant\n Have venous access sufficient to allow for blood sampling",
-        "exclusion_criteria": "exclusion criteria: \n\nHave known allergies to LY3839840, related compounds, or any components of the formulation\nHave a history or presence of multiple or severe allergies, anaphylactic reaction to prescription or nonprescription drugs, or history of significant atopy\nHave a significant history of or current rheumatologic, cardiovascular, respiratory, hepatic, renal, gastrointestinal, endocrine (such as Cushing syndrome, hyperthyroidism, hyperaldosteronism), hematological, or neurological disorders capable of significantly altering the absorption, metabolism, or elimination of drugs; of constituting a risk when taking the investigational medicinal product; or of interfering with the interpretation of data\nHave had any significant infections within 3 months prior to the screening visit, or develop any of these infections before the randomization visit.\nHave received \u22651 live vaccine within 28 days of screening, or intend to during the study, or \u226428 days after the study\nHad any surgical procedure (except for minor surgery requiring local or no anesthesia and without any complications or sequelae) within 12 weeks prior to screening, or intend to during the study, or \u226428 days after the study\nHad any malignancy within the past 5 years. Exceptions: successfully treated basal cell skin carcinoma or squamous cell skin carcinoma with no evidence of recurrence or metastatic disease within the past 3 years\nHave a history of a primary immunodeficiency, splenectomy, or any underlying condition that predisposes the participant to infection that, in the opinion of the sponsor or investigator, poses an unacceptable risk to the participant\nHave used, or intend to use, prescription or nonprescription medication within 14 days prior to dosing (or 5 half-lives - whichever is longer)\nAre currently enrolled in any other clinical study involving an investigational product or any other type of medical research judged not to be scientifically or medically compatible with this study\nHave participated in a clinical study involving an investigational product within the last 30 days of the final drug administration (or 5 half-lives - whichever is longer)\nShow evidence of active or latent TB\nAre females who are lactating or have a positive pregnancy test at screening or Day -1\nBlood donation of \u2265450 mL, or participation in a clinical study that required a blood volume of \u2265400 mL since the last study visit within the past 120 days",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT05723198",
-        "brief_title": "A Study of Baricitinib (LY3009104) in Children From 6 Years to Less Than 18 Years of Age With Alopecia Areata",
-        "official_title": "A Phase 3, Double-Blind, Randomized, Placebo-Controlled Trial to Evaluate the Efficacy, Safety, and Pharmacokinetics (PK) of Baricitinib in Children From 6 Years to Less Than 18 Years of Age With Alopecia Areata",
-        "lillyAlias": [
-            "I4V-MC-JAIO"
-        ],
-        "brief_summary": "The main purpose of this study is to determine the efficacy and safety of baricitinib for the treatment of severe or very severe alopecia areata (hair loss) in children from 6 years to less than 18 years of age.\n\nThe study is divided into 4 periods, a 5-week Screening period, a 36-week Double-Blind Treatment Period, an approximately 2-year Long-term Extension Period, and a 4-week Post-treatment Follow-up period.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Areata Alopecia",
-            "Alopecia",
-            "Hypotrichosis",
-            "Hair Diseases",
-            "Skin Diseases",
-            "Pathological Conditions, Anatomical"
-        ],
-        "drugs_list": [
-            "Baricitinib",
+            "Donanemab",
             "Placebo"
         ],
-        "enrollment": 595,
-        "inclusion_criteria": "inclusion criteria: \n\n Enrollment will be fully sequential by age group, with adolescents (12 to less than 18 years old) enrolling before children (6 to less than 12 years old).\n Have severe areata alopecia (AA) for at least 1 year\n Diagnosis for at least 1 year\n Current AA episode of at least 6 months' duration\n SALT score \u226550% at screening and baseline\n History of trial and failure with at least 1 available treatment (topical or other) for AA\n History of psychological counseling related to AA\n Current episode of severe AA of less than 8 years.\n\n   Note: Participants who have severe AA for \u22658 years may be enrolled if episodes of regrowth, spontaneous or under treatment, have been observed on the affected areas over the past 8 years.",
-        "exclusion_criteria": "exclusion criteria: \n\nPrimarily \"diffuse\" type of AA (characterized by diffuse hair shedding).\nAre currently experiencing other forms of alopecia including, but not limited to trichotillomania, telogen effluvium, chemotherapy-induced hair loss, or any other concomitant conditions (for example, tinea capitis, psoriasis, lupus erythematosus, or secondary syphilis) that would interfere with evaluations of the effect of study medication on AA.\nAre largely or wholly incapacitated permitting little or no self-care, such as being bedridden\nHave uncontrolled arterial hypertension\nHave had major surgery within 8 weeks prior to screening or will require major surgery during the study\nHave a history or presence of cardiovascular, respiratory, hepatic, gastrointestinal, endocrine, hematological, neurological, or neuropsychiatric disorders or any other serious and/or unstable illness that, in the opinion of the investigator, could constitute an unacceptable risk when taking IP or interfere with the interpretation of data.\nHave a positive test for hepatitis B virus (HBV) infection\nHave hepatitis C virus (HCV) infection (positive for anti hepatitis C antibody with confirmed presence of HCV ribonucleic acid \\[RNA\\]).\nHave evidence of human immunodeficiency virus (HIV) infection and/or positive HIV antibodies.",
+        "enrollment": 2196,
+        "inclusion_criteria": "inclusion criteria: \n\n A Telephone Interview for Cognitive Status - modified (TICS-M) score reflective of intact cognitive functioning.\n Has a phosphorylated tau (P-tau) result consistent with the presence of amyloid and early-tau pathology.\n Has a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.\n Have adequate literacy, vision, and hearing for neuropsychological testing at screening.\n Contraceptive use by men or women should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies\n Female participants include those who are infertile due to surgical sterilization (hysterectomy, bilateral oophorectomy, or tubal ligation), congenital anomaly such as Mullerian agenesis; or post menopausal (women 55 or older not on hormone therapy and had at least 12 months of spontaneous amenorrhea; or with a diagnosis of menopause prior to starting hormone replacement therapy.",
+        "exclusion_criteria": "exclusion criteria: \n\nMild cognitive impairment or dementia, or significant other neurodegenerative disease that can affect cognition.\nCurrent serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease that could interfere with the analysis of the study or a life expectancy of approximately \u22645 years.\nHistory of cancer with high risk of recurrence and preventing completion of the trial.\nHistory of clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions (including but not limited to erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, and/or exfoliative dermatitis).\nHave any clinically important abnormality at screening on magnetic resonance imaging (MRI) or clinical laboratory test results that could be detrimental to the participant or study integrity.\nHave any contraindications for MRI, including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.\nHave a centrally read MRI demonstrating presence of amyloid-related imaging abnormalities (ARIA-E), \\>4 cerebral microhemorrhages, more than 1 area of superficial siderosis, any macrohemorrhage or severe white matter disease at screening.\nHave had prior treatment with a passive anti-amyloid immunotherapy \\<5 half-lives prior to randomization.\nHave received active immunization against amyloid beta (A\u03b2) in any other study.\nHave received active immunization against A\u03b2 in any other study.\nCurrent or previous use of prescription medications used as treatment for mild cognitive impairment (MCI) or AD.\n\nAddendum 7 Exclusion Criteria for Clinicaltrials.gov:\n\nSame as the main study except contraindications for florbetapir F 18 PET are exclusionary.",
         "keywords": []
     },
     {
-        "trial_id": "NCT06859294",
-        "brief_title": "A Study of LY3541860 in Adult Participants With Moderately to Severely Active Rheumatoid Arthritis",
-        "official_title": "A Phase 2a, Single-Arm Study to Investigate the Efficacy and Safety of LY3541860 in Adult Participants With Moderately to Severely Active Rheumatoid Arthritis",
+        "trial_id": "NCT06653153",
+        "brief_title": "A Study of Remternetug (LY3372993) in Early Alzheimer's Disease (TRAILRUNNER-ALZ 3)",
+        "official_title": "A Study of Remternetug Versus Placebo in Early Alzheimer's Disease Participants at Risk for Cognitive and Functional Decline",
         "lillyAlias": [
-            "J3K-MC-KIAC"
+            "J1G-MC-LAKI"
         ],
-        "brief_summary": "The main purpose of this study is to evaluate the effects of LY3541860 in adult participants with moderately to severely active Rheumatoid Arthritis with inadequate response to a least one biologic disease-modifying antirheumatic drug (bDMARD)or targeted synthetic disease-modifying antirheumatic drug (tsDMARD).\n\nStudy participation is approximately 50 weeks, including a 6-week screening period, 24-week treatment period, and a 20-week safety follow up period.",
+        "brief_summary": "The purpose of this study is to measure the difference in time to developing or worsening memory, thinking, or functional problems due to Alzheimer's disease occurring in participants receiving study drug compared to placebo.\n\nParticipation could last up to 255 weeks including screening, a double-blind treatment period, and a double-blind observation period. In addition, eligible participants who receive placebo during the double-blind treatment period may choose to extend their study participation to receive open-label remternetug in an extension period.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE3"
+        ],
+        "diseases_list": [
+            "Alzheimer's Disease"
+        ],
+        "drugs_list": [
+            "Remternetug",
+            "Placebo"
+        ],
+        "enrollment": 1200,
+        "inclusion_criteria": "inclusion criteria: \n\n Have a phosphorylated tau (P-tau) result consistent with the presence of amyloid pathology.\n Have a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.\n Have adequate literacy, vision, and hearing for neuropsychological testing at screening.\n Have a Mini Mental Status Exam (MMSE) score consistent with no to minimal cognitive impairment.\n Have a Functional Activities Questionnaire (FAQ) score consistent with no to minimal functional impairment.\n If currently receiving medications as symptomatic treatment for AD, dose has been stable for at least 30 days before screening.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave dementia or significant other neurological disease that can affect cognition.\nHave current serious or unstable illnesses that in the investigator's opinion, could interfere with the analyses of the study.\nHave a history of cancer that, in the investigator's opinion, has a high risk of recurrence.\nHave a history of clinically significant multiple or severe drug allergies, or hypersensitivity reactions.\nHave a clinically important laboratory test result or other abnormality as determined by investigator, prior to randomization, that could be detrimental to the participant or could compromise the study.\nHave any contraindications for magnetic resonance imaging (MRI).\nHave a centrally read MRI that does not meets study entry criteria.\n\nPrior or Current Therapies\n\nHave ever had prior treatment with a passive anti-amyloid immunotherapy.\nHave received active immunization against A\u03b2 in any other study.",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06566170",
+        "brief_title": "A Real-World Comparative Study of Donanemab (LY3002813) Plus Usual Care Versus Usual Care Alone in US Participants With Early Symptomatic Alzheimer's Disease",
+        "official_title": "Long-Term Real-World Comparative Effectiveness of Donanemab Plus Usual Care Versus Usual Care Alone in US Patients With Early Symptomatic Alzheimer's Disease (TRAILBLAZER-REAL US)",
+        "lillyAlias": [
+            "I5T-MC-AACS"
+        ],
+        "brief_summary": "The main purpose of this study is to evaluate the long-term effectiveness of donanemab plus usual care versus usual care alone in participants with early symptomatic AD. The study will employ a prospective, observational cohort design with participant management resembling real-world practice to the greatest extent possible via prospective assessments and linkage to historical and prospective electronic health records. The study will last about 273 weeks and may include up to 28 visits.",
+        "trial_status": "RECRUITING",
+        "phase": {},
+        "diseases_list": [
+            "Alzheimer Disease"
+        ],
+        "drugs_list": [
+            "Donanemab",
+            "Usual Care"
+        ],
+        "enrollment": 3060,
+        "inclusion_criteria": "inclusion criteria: \n\nParticipants\n\n are under care for presumed mild cognitive impairment (MCI) or mild dementia stage of AD (Note: neither a biomarker-based diagnosis of AD nor a diagnosis in electronic health records \\[EHR\\] is required prior to screening)\n have a Telephone Interview for Cognitive Status (TICS) score of \u226521\n presence of amyloid beta (A\u03b2) pathology supported by biomarker results (e.g., P-tau, amyloid positron emission tomography (PET), and/or cerebrospinal fluid \\[CSF\\]). (Note: A historical biomarker may be used for eligibility if performed within 12 months of study entry)\n have a reliable study partner who is in frequent contact with the participant and will be available by telephone at designated times (every 6 months), and\n have EHR data available for linkage and are willing to allow access to EHR data for the duration of the study.",
+        "exclusion_criteria": "exclusion criteria: \n\nhave prior ischemic or hemorrhagic stroke(s) with an inability to independently perform any one or more basic activities of daily living (ADLs) (i.e., walking, transferring, eating, bathing, dressing, or toileting). (Note: mixed dementias with amyloid pathology are permitted)\nhave current or recent serious or unstable illness (other than AD) that, in the investigator's opinion, could interfere with the ability of the participant or study partner to complete the study (e.g., life expectancy of less than 36 months, requirement for long-term (\\>12 months) institutional-level care, serious psychiatric illness, etc.)\nare currently enrolled or intend to enroll in a clinical trial of another investigational product, and\nhave contraindications to donanemab, magnetic resonance imaging (MRI), or amyloid PET tracers. (Donanemab group only).",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06538116",
+        "brief_title": "A Study of Mevidalen (LY3154207) in Participants With Alzheimer's Disease",
+        "official_title": "A Randomized, Double-Blinded Study to Evaluate the Efficacy and Safety of Mevidalen in Patients With Alzheimer's Disease",
+        "lillyAlias": [
+            "I7S-MC-HBEO"
+        ],
+        "brief_summary": "The main purpose of this study is to look at how safe the study drug (mevidalen) is and whether it works to alleviate symptoms when given to people with mild to moderate Alzheimer Disease (AD) dementia. This is done by looking at participants: thinking and memory (cognition), everyday activities and sleep, AD symptoms, physical activity, irritability or anxiety. The study is expected to last approximately 26 weeks and may include up to 14 visits.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE2"
         ],
         "diseases_list": [
-            "Rheumatoid Arthritis"
+            "Alzheimer Disease"
         ],
         "drugs_list": [
-            "LY3541860"
+            "Mevidalen",
+            "Placebo"
         ],
-        "enrollment": 40,
-        "inclusion_criteria": "inclusion criteria: \n\n Have a diagnosis of adult-onset Rheumatoid Arthritis (RA) for at least 3 months prior to screening, as defined by the 2010 ACR/EULAR classification criteria.\n Have moderately to severely active RA, at screening (Visit 1) and baseline (Visit 2), defined by the presence of\n\n   \u22656 swollen joints based on 66 joint count (and \u22654 swollen joints on 28 joint count), and\n   \u22656 tender joints based on 68 joint count (and \u22654 tender joints on 28 joint count).\n Have active synovitis in \u22651 joint, in hands or wrists, of the investigator choosing at screening, having an MRI synovitis RAMRIS score of \u22652 as determined from the central reading of the images.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave a diagnosis or history of malignant disease within 5 years prior to baseline, with the exceptions of\n\n  basal cell or squamous epithelial carcinomas of the skin that have been resected with no evidence of metastatic disease for 3 years, or\n  cervical carcinoma in situ, with no evidence of recurrence within the 5 years prior to baseline.\nHave estimated glomerular filtration rate (eGFR) of \\<45 milliliter per minute (mL/minute) from serum creatinine using the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) creatinine equation.\nHave a current or recent active infection.\nHave presence of 1 or more significant concurrent medical conditions per investigator judgment, including but not limited to\n\n  poorly controlled diabetes or hypertension\n  chronic kidney disease Stage 3a or b, 4, or 5\n  symptomatic heart failure according to New York Heart Association Class 2, 3, or 4\n  myocardial infarction, unstable angina pectoris, stroke, or transient ischemic attack within the past 12 months before baseline\n  severe chronic pulmonary disease, for example, requiring oxygen therapy major chronic inflammatory disease or connective tissue disease other than RA, including but not limited to\n  systemic lupus erythematosus\n  psoriatic arthritis\n  axial spondyloarthritis, including ankylosing spondylitis and non-radiographic axial spondyloarthritis\n  reactive arthritis\n  gout\n  scleroderma\n  polymyositis\n  dermatomyositis\n  active fibromyalgia, or\n  multiple sclerosis\nHave received any prior B-cell targeted therapy (for example, anti-CD19 antibodies or anti-CD20 antibodies, such as rituximab).\nReceived corticosteroids, opioids, conventional disease-modifying antirheumatic drug (cDMARD), with changes in dose or have received Janus kinase (JAK) inhibitors within 28 days prior to the screening MRI or plan on receiving these drugs during the study.",
+        "enrollment": 300,
+        "inclusion_criteria": "inclusion criteria: \n\n Have gradual and progressive decline in memory function for greater than or equal to 6 months that is severe enough to interfere with activities of daily living.\n Have MMSE score of 13 to 24.\n Have eligibile plasma P-tau or historical evidence of AD pathology.\n Have a reliable study partner who will provide written informed consent to participate, is in frequent contact with the participant and will be available at designated times.\n Males with partners of childbearing potential must agree to abide with provided contraception guidance.",
+        "exclusion_criteria": "exclusion criteria: \n\nAre individuals of childbearing potential.\nHave significant central nervous system or psychiatric disease, other than AD, that in the investigator's opinion may affect cognition or the ability to complete the study (e.g: head trauma, stroke, seizure disorder etc.,).\nHave cardiovascular-related risk factors or history that include uncontrolled hypertension, heart failure, stroke; or liver-related abnormalities.\nUse of moderate or strong CYP3A4 inhibitors or inducers.\nHave participated within the last 30 days in a clinical trial involving an investigational product.\nParticipant is, in the judgment of the investigator, actively suicidal and therefore deemed to be at significant risk for suicide.",
         "keywords": []
     },
     {
-        "trial_id": "NCT05784246",
-        "brief_title": "A Study of Mirikizumab (LY3074828) in Pediatric Participants With Moderately to Severely or Active Ulcerative Colitis",
-        "official_title": "A Multicenter, Phase 3, Open-Label Study to Investigate the Efficacy, Pharmacokinetics, and Safety of Mirikizumab in Participants 2 Years to Less Than 18 Years of Age With Moderately to Severely Active Ulcerative Colitis",
+        "trial_id": "NCT06220669",
+        "brief_title": "A Study of LY3541860 in Adult Participants With Relapsing Multiple Sclerosis",
+        "official_title": "An Adaptive Phase 2a/2b, Randomized, Double-Blind, Parallel-Group Study to Investigate the Safety and Efficacy of LY3541860 Compared to Placebo in Slowing the Occurrence of New T1 Gadolinium-Enhancing Lesions in Adult Participants With Relapsing Multiple Sclerosis",
         "lillyAlias": [
-            "I6T-MC-AMBA"
+            "J3K-MC-KIAB"
         ],
-        "brief_summary": "The main purpose of this study is to investigate efficacy, pharmacokinetics and safety of the drug in pediatric participants with moderately to severely active ulcerative colitis (UC).",
+        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of LY3541860 in adult participants with multiple sclerosis that gets worse and gets better. The study will last about 9 months with additional 6 months follow-up.",
         "trial_status": "RECRUITING",
         "phase": [
-            "PHASE3"
+            "PHASE2"
         ],
         "diseases_list": [
-            "Ulcerative Colitis"
+            "Multiple Sclerosis"
         ],
         "drugs_list": [
-            "Mirikizumab IV",
-            "Mirikizumab SC"
+            "LY3541860",
+            "Placebo"
         ],
-        "enrollment": 60,
-        "inclusion_criteria": "inclusion criteria: \n\n Males or females weighing \u226510 kg and \u22652 and \\<18 years old at the time of consent for screening.\n Have moderate to severe UC.\n Have failed corticosteroids, biologics, (for example, anti-tumor necrosis factor (TNF) antibodies or anti-integrin antibodies), immunomodulators (for example, azathioprine, thiopurines or methotrexate) or Janus Kinase (JAK)-Inhibitor treatment.\n Have UC at least 3 months in duration before baseline, which includes endoscopic evidence of UC corroborated by a histopathology report.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave Crohn's disease, Inflammatory Bowel Disease Unclassified, ulcerative proctitis or primary sclerosing cholangitis.\nHave immune deficiency syndrome.\nPrevious bowel resection or intestinal surgery.\nEvidence of toxic megacolon.\nHistory or current evidence of cancer of the gastrointestinal tract.",
-        "keywords": []
-    },
-    {
-        "trial_id": "NCT05074420",
-        "brief_title": "A Study of Baricitinib (LY3009104) in Children With COVID-19",
-        "official_title": "A Multicenter, Open-Label, Pharmacokinetic and Safety Study of Baricitinib in Pediatric Patients From 1 Year to Less Than 18 Years Old Hospitalized With COVID-19",
-        "lillyAlias": [
-            "I4V-MC-KHAB"
-        ],
-        "brief_summary": "The purpose for this study is to determine if the study drug baricitinib is effective and safe in hospitalized pediatric participants with Coronavirus disease 2019 (COVID -19) and to confirm the dose.",
-        "trial_status": "RECRUITING",
-        "phase": [
-            "PHASE3"
-        ],
-        "diseases_list": [
-            "Covid19",
-            "Corona Virus Infection"
-        ],
-        "drugs_list": [
-            "Baricitinib"
-        ],
-        "enrollment": 24,
-        "inclusion_criteria": "inclusion criteria: \n\n Hospitalized with coronavirus (SARS-CoV-2) infection.\n Male or female participants from 1 to \\<18 years of age.\n Requires supplemental oxygen and have chest imaging findings to confirm respiratory disease due to COVID-19 within 72 hours of study entry and enrollment.\n Supplemental oxygen including but not limited to: nasal cannula, mask, high flow devices, CPAP/BiPAP, invasive mechanical ventilation as well as ECMO.",
-        "exclusion_criteria": "exclusion criteria: \n\nAre receiving biologic treatments (such as Tumor Necrosis Factor \\[TNF\\] inhibitors, interleukin inhibitors, T-cell or B-cell targeted therapies, interferon, or Janus kinase (JAK) inhibitors); or are receiving other immunosuppressants such that, in the opinion of the investigator, participating in the study would put the participant at an unacceptable risk of immunosuppression.\n\nNote: A washout period is required prior to screening.\n\nAre receiving strong inhibitors of Organic Anion Transporter 3 (OAT3) (such as probenecid) that cannot be discontinued at study entry.\nHave diagnosis of current active tuberculosis (TB) or, if known, latent TB treated for less than 4 weeks with appropriate anti-tuberculosis therapy per local guidelines (by history only, no screening tests required).\nSuspected serious, active bacterial, fungal, viral, or other infection (besides COVID-19) that in the opinion of the investigator could constitute a risk when taking investigational product.\nHave received any live vaccine within 4 weeks before screening, or intend to receive a live vaccine during the study. Note: Use of non-live (inactivated) vaccinations are allowed for all participants.\nRequire invasive mechanical ventilation, including extracorporeal membrane oxygenation (ECMO) at study entry.\nCurrent diagnosis of active malignancy that, in the opinion of the investigator, could constitute a risk when taking investigational product.\nHave a history of venous thromboembolism (VTE) (deep vein thrombosis \\[DVT\\] and/or pulmonary embolism \\[PE\\]) or considered high risk of VTE (DVT/PE).\nAnticipated discharge from the hospital, or transfer to another hospital (or another unit), which is not a study site within 72 hours after study entry.\nHave neutropenia (absolute neutrophil count \\<1000 cells/microliters).\nHave lymphopenia (absolute lymphocyte count \\<200 cells/microliters).\nHave alanine aminotransferase (ALT) or aspartate aminotransferase (AST) \\>5 times AAULN.\nEstimated glomerular filtration rate (eGFR) (Modification of Diet in Renal Disease \\[MDRD\\]) \\<40 milliliter/minute/1.73 meters squared.\nHave a known hypersensitivity to baricitinib or any of its excipients.\nAre currently enrolled in any other clinical study involving an investigation product or any other type of medical research judged not to be scientifically or medically compatible with this study. Note: The participant should not be enrolled (started) in another clinical trial for the treatment of COVID-19 or SARS CoV-2 through Day 28.\nAre pregnant, or intend to become pregnant or breastfeed during the study.\nAre, in the opinion of the investigator or sponsor, at risk of immunosuppression or otherwise unsuitable for inclusion in the study.\nAre using or will use extracorporeal blood purification (EBP) device to remove proinflammatory cytokines from the blood such as a cytokine absorption or filtering device, for example, CytoSorb\u00ae.\nAre, in the opinion of the investigator, unlikely to survive for at least 48 hours after screening.",
+        "enrollment": 200,
+        "inclusion_criteria": "inclusion criteria: \n\n Participants must meet criteria for relapsing forms of multiple sclerosis, including relapsing-remitting multiple sclerosis based on the 2017 revision of the McDonald diagnostic criteria (Thompson et al. 2018) with a relapsing course (RMS) activity according to Klineova and Lublin 2018.\n Participants must have 1 of these:\n\n   at least 1 documented relapse within the previous year\n   at least 2 documented relapses within the previous 2 years, or\n   at least 1 active GdE brain lesion on an MRI scan in the past 180 days prior to screening.\n Have an Expanded Disability Status Scale (EDSS) score of less than or equal to (\u2264) 5.5 at screening and randomization.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave had a diagnosis of:\n\n  primary progressive multiple sclerosis (MS) according to the 2017 revision of McDonald diagnostic criteria (Thompson et al. 2018), or\n  nonactive secondary progressive MS ( Klineova and Lublin 2018).\nMeet criteria for neuromyelitis optica spectrum disorder (Wingerchuk and Lucchinetti 2022).\nHave a history of clinically significant central nervous system (CNS) disease.\nHave had a confirmed relapse with systemic corticosteroid administration \\<30 days prior to randomization.\nHave more than 20 active GdE brain lesions on screening MRI scan.\nHave received any of these medications or treatments.\nHave a current or recent acute, active infection.\nHave current serious or unstable illnesses.\nHave any other clinically important abnormality at screening or baseline.",
         "keywords": [
-            "coronavirus"
+            "Relapsing remitting multiple sclerosis, Clinically isolated syndrome, Secondary progressive multiple sclerosis with disease activity."
         ]
     },
     {
-        "trial_id": "NCT06395012",
-        "brief_title": "A First-In-Human Study of LY3985297 in Healthy Participants",
-        "official_title": "A Phase 1, Randomized, Placebo-controlled, Investigator and Participant Blinded, Single Ascending Dose and Multiple Ascending Dose Study to Evaluate Safety, Tolerability, and Pharmacokinetics of LY3985297 in Healthy Participants",
+        "trial_id": "NCT06809400",
+        "brief_title": "A Study of LY4006896 in Healthy Participants and Participants With Parkinson's Disease",
+        "official_title": "A Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY4006896 in Healthy Participants and Participants With Parkinson's Disease",
         "lillyAlias": [
-            "J4S-MC-KSAA"
+            "J5V-MC-ORAA"
         ],
-        "brief_summary": "The main purpose of this study is to see if LY3985297, the study drug, is safe and well-tolerated when given as a single dose or as multiple doses either through an intravenous (into a vein) or a subcutaneous (under the skin) injection in healthy participants. Study will also evaluate how much of the study drug LY3985297 gets into the blood stream and how long it takes the body to remove it.\n\nThe study is conducted in two parts (part A and B), each part has a separate treatment cohort.\n\nThe study will last up to approximately 116 days for part A, and 145 days for part B, including the screening period.",
+        "brief_summary": "The purpose of this study is to generate evidence of the safety, tolerability, and pharmacokinetics/pharmacodynamics of IV LY4006896 compared with placebo in healthy participants and participants with Parkinson's disease.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE1"
         ],
         "diseases_list": [
-            "Healthy"
+            "Parkinson Disease"
         ],
         "drugs_list": [
-            "LY3985297",
+            "LY4006896",
             "Placebo"
         ],
-        "enrollment": 153,
-        "inclusion_criteria": "inclusion criteria: \n\n Participants must be overtly healthy, as determined by medical evaluation.\n Have a body mass index of 18.0 to 32.0 kilograms per square meter (kg/m\u00b2), inclusive, and a minimum body weight of 45.0 kg.\n Participants must be assigned male or female at birth and not of childbearing potential.\n Have normal blood pressure, pulse rate, electrocardiogram (ECG), clinical laboratory test results that are acceptable for the study.\n Have venous access sufficient to allow for blood sampling.\n\nFor Part A Cohorts 5, 6, and 7:\n\n Participants must be first-generation Japanese only, defined as the participant's biological parents, and all of the participant's biological grandparents must be of exclusive Japanese descent and born in Japan. Or\n Participants must be first-generation Chinese only, defined as the participant's biological parents, and all of the participant's biological grandparents must be of exclusive Chinese descent and born in China.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave a current or recent acute, active infection. For at least 30 days before screening and up to the randomization visit (Day 1).\nHad any surgical procedure (except for minor surgery requiring local or no anesthesia and without any complications or sequelae) within 12 weeks prior to screening or intend to during the study.\nHave a history of multiple or severe allergies, or an anaphylactic reaction, to prescription or nonprescription drugs or food.\nShow evidence of active or latent tuberculosis (TB).\nHave one of the following infections: hepatitis B, C virus or human immunodeficiency virus (HIV).",
+        "enrollment": 127,
+        "inclusion_criteria": "inclusion criteria: \n\nPart A Single Ascending Dose (SAD) and B Multiple Ascending Dose (MAD)\n\n Have a body mass index within the range of 18 to 34 kilogram/square meter (kg/m\u00b2) (inclusive).\n For Japanese participants: To qualify as a participant of first-generation Japanese origin, the participant, the participant's biological parents, and all of the participant's biological grandparents must be of exclusive Japanese descent and born in Japan.\n Have venous access sufficient to allow for blood sampling or administration of study intervention for IV administration, or both.\n\nPart A (SAD) Only\n\n Are overtly healthy\n For Chinese participants: To qualify as Chinese for this study, all 4 of the participant's biological grandparents must be exclusive Chinese descent and born in China.\n\nPart B (MAD) Only\n\n Diagnosis of Parkinson's disease per United Kingdom (UK) Parkinson's Disease Society Brain Bank Clinical Diagnostic Criteria.\n If presently untreated for Parkinson's disease, clinical status is not expected to require changes in symptomatic treatment within 52 weeks from baseline.\n If presently being treated for Parkinson's disease, receiving a stable dose of symptomatic dopaminergic therapy, including monoamine oxidase-B inhibitor, levodopa/carbidopa or dopamine agonist for at least 90 days prior to baseline and not expected to change within 52 weeks.\n Have a Montreal Cognitive Assessment (MoCA) score of greater than or equal to (\u2265) 26.",
+        "exclusion_criteria": "exclusion criteria: \n\nPart A (SAD) and B (MAD)\n\nHave significant neurological disease affecting the central nervous system (CNS) (other than Parkinson's disease in Part B cohorts) that may affect the participant's ability to complete the study.\nHave a history or presence of serious or unstable illnesses or conditions that, in the investigator's opinion, could interfere with the analyses in this study, or increase risk for study intervention administration, or result in a participant's life expectancy of less than 24 months.\nHave known allergies to LY4006896, related compounds, or any components of the formulation, or history of allergic reactions to any transferrin receptor antibodies.\nHave significant allergies to humanize monoclonal antibodies.\nHave clinically significant multiple or severe drug allergies (including, but not limited to, erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, or exfoliative dermatitis); or intolerance to topical corticosteroids, or severe posttreatment hypersensitivity reactions.\nHave history or presence of uncontrolled asthma, significant autoimmune disease, hereditary angioedema, or known history of common variable immune deficiency.\nEvidence of clinically significant anemia.\n\nPart A (SAD) Only\n\nHave an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or a preexisting history of hypertension.\n\nPart B (MAD) Only\n\nHave an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or have uncontrolled hypertension, defined as a systolic blood pressure \\>150 mm Hg or a diastolic blood pressure \\>95 mm Hg at Screening or Treatment Visits.",
         "keywords": []
     },
     {
-        "trial_id": "NCT05395481",
-        "brief_title": "A Single-Ascending and Repeated Dose Study of LY3849891 in Participants With Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD)",
-        "official_title": "A Single-Ascending and Repeated Subcutaneous Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of LY3849891 in Participants With Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) Who Have the PNPLA3 I148M Genotype",
+        "trial_id": "NCT06657768",
+        "brief_title": "A Study of LY4006895 in Healthy Participants With Early Symptomatic Alzheimer's Disease (AD)",
+        "official_title": "A Placebo-Controlled, Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, PK and PD of LY4006895 in Healthy Volunteers and Patients With Early Symptomatic AD",
         "lillyAlias": [
-            "J3W-MC-GZOA"
+            "J5K-MC-OQAA"
         ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and tolerability of the study drug LY3849891 in participants with metabolic dysfunction-associated steatotic liver disease (MASLD) who have the patatin-like phospholipase domain-containing protein 3 (PNPLA3) I148M genotype. Blood tests and magnetic resonance imaging of the liver will be performed to determine the effects of LY3849891 on MASLD and assessment of resolution of liver fibroinflammation. Blood tests will also determine how long it takes the body to eliminate LY3849891. This is a 2-part study and may last up to 32 weeks for each participant and may include 12 visits in parts A and B.",
+        "brief_summary": "The main purpose of this study is to evaluate the safety and tolerability of the study drug known as LY4006895. Part A will administer a single-ascending dose in healthy participants or Part B will administer multiple-ascending doses in participants with early symptomatic Alzheimer's Disease (AD).\n\nBlood tests will be performed to check how much LY4006895 gets into the bloodstream and how long it takes the body to eliminate it.\n\nThis is a 2-part study and will last approximately 29 weeks for Part A and 61 weeks for Part B, including a screening period for each part.",
         "trial_status": "RECRUITING",
         "phase": [
             "PHASE1"
         ],
         "diseases_list": [
-            "Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
-            "Metabolic Dysfunction-associated Steatotic Liver Disease (MASLD)"
+            "Alzheimer Disease",
+            "Healthy"
         ],
         "drugs_list": [
-            "LY3849891",
+            "LY4006895",
             "Placebo"
         ],
-        "enrollment": 176,
-        "inclusion_criteria": "inclusion criteria: \n\n Participants must have a body mass index (BMI) within the range greater than or equal to (\u2265) 25 and less than (\\<) 50 kilogram per square meter (kg/m\u00b2) inclusive\n Participants must have liver fat content \u226510% in Part A and \u22658% for Part B as determined by MRI-PDFF\n Participants must be carriers of the PNPLA3 I148M allele\n Participants with or without type 2 diabetes mellitus (T2DM)\n\n  o For participants with T2DM, hemoglobin A1c (HbA1c) \\<8% in Part A and \\<9% in Part B\n Male participants agree to use an effective method of contraception for the duration of the study and for 90 days after the last dose of study intervention\n Women not of childbearing potential may participate and include those who are: infertile due to surgical sterilization (hysterectomy, bilateral oophorectomy, or tubal ligation), congenital anomaly such as Mullerian agenesis; or those who are postmenopausal",
-        "exclusion_criteria": "exclusion criteria: \n\nParticipants must not have known or suspected alcohol abuse (\\>14 units/week for women and \\>21 units/week for men) or active substance abuse\nParticipants must not have evidence of cirrhosis or other forms of liver disease\nParticipants must not have heart attack, stroke, or hospitalization for congestive heart failure in the past 3 months\nParticipants must not have active cancer within the last 5 years\nParticipants must not have uncontrolled high blood pressure\nParticipants must not have renal impairment with estimated glomerular filtration rate (eGFR) \\<60 milliliter per minute per 1.73 square meter (ml/min/1.73m\u00b2)\nParticipants must not have a diagnosis of type 1 diabetes\nParticipants must not have a contraindication to MRI examinations, such as persons with cardiac pacemaker and implants made out of metal (for example, cochlear implant, nerve stimulators, magnetic vascular clips, and metallic heart valve) or other contraindications for MRI",
+        "enrollment": 68,
+        "inclusion_criteria": "inclusion criteria: \n\n ",
+        "exclusion_criteria": "exclusion criteria: \n\n ",
+        "keywords": []
+    },
+    {
+        "trial_id": "NCT06719128",
+        "brief_title": "A Study of Olomorasib (LY3537982) in Participants With Hepatic Impairment and Healthy Participants",
+        "official_title": "An Open-Label, Nonrandomized, Single-Dose, Safety and Pharmacokinetic Study of LY3537982 in Participants With Hepatic Impairment and Healthy Participants",
+        "lillyAlias": [
+            "J3M-OX-JZQF"
+        ],
+        "brief_summary": "The main purpose of this study is to assess how olomorasib gets into the blood stream and how long it takes the body to remove it when administered to participants with mild, moderate and severe impaired liver function compared to participants with normal liver function. The safety and tolerability of olomorasib will also be evaluated. The study may last up to 6 weeks for each participant including the screening period.",
+        "trial_status": "RECRUITING",
+        "phase": [
+            "PHASE1"
+        ],
+        "diseases_list": [
+            "Hepatic Insufficiency",
+            "Healthy"
+        ],
+        "drugs_list": [
+            "Olomorasib"
+        ],
+        "enrollment": 48,
+        "inclusion_criteria": "inclusion criteria: \n\n Males and females of non-childbearing potential.\n Men or women with a body mass index of 18.0 to 40.0 kilograms per meter squared (kg/m\u00b2).\n Able to comply with all study procedures, including the 5- to 6-night stays at the CRU and the follow-up phone call.\n Healthy participants: In good health, determined by no clinically significant findings from medical history, physical examination, 12-lead ECG, vital sign measurements, or clinical laboratory evaluations at screening and/or admission as assessed by the investigator (or designee).\n Participants with hepatic impairment: Diagnosis of cirrhosis due to parenchymal liver disease, which is confirmed and documented by at least one of the following: medical history, physical examination, hepatic ultrasound, computed axial tomography scan, magnetic resonance imaging, and/or liver biopsy.",
+        "exclusion_criteria": "exclusion criteria: \n\nFemales who are lactating or of childbearing potential.\nHistory or presence of any of the following, deemed clinically significant by the Investigator (or designee), and/or Sponsor:\n\n  1. Metabolic disease\n  2. Gastrointestinal disease\n  3. Hematological disease\n  4. Neurological disease\n  5. History or presence of clinically significant cardiovascular disease.\nAbnormal laboratory values determined to be clinically significant by the Investigator (or designee).\nClinically significant abnormality, as determined by the Investigator (or designee), from physical examination.\nParticipation in any other investigational study drug trial involving administration of any investigational drug in the past 30 days or 5 half-lives, whichever was longer, prior to the first dose administration (Day 1).\nUse or intention to use any prescription or over-the-counter medications within 14 days prior to the first dose administration (Day 1) and through end of trial, unless deemed acceptable by the investigator (or designee) and medical monitor.\nHistory or presence, upon clinical evaluation, of any illness that, in the opinion of the Investigator, would interfere with the ability to provide informed consent or comply with study instructions, or that might confound the interpretation of the study results, or put the participant at undue risk.",
         "keywords": [
-            "Hepatic fibrosis",
-            "Biomarkers",
-            "Magnetic resonance imaging",
-            "Pharmacokinetics",
-            "Liver fat"
+            "Olomorasib",
+            "Hepatic Impairment"
         ]
     }
 ]

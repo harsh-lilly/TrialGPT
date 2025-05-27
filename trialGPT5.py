@@ -8,7 +8,7 @@ def parse_criteria(criteria):
 	output = ""
 	criteria = criteria.split("\n")
 	
-	idx = 0
+	idx = 1
 	for criterion in criteria:
 		criterion = criterion.strip()
 
@@ -38,7 +38,7 @@ def get_matching_prompt(inc_exc, trial_info, patient):
 	prompt += "First explain how the patient is relevant, then the score between 0 to 100. Where 0 represents the patient is totally irrelevant and 100 represents exaclty relevant.\n"
 	prompt += "Then, explain how the patient is eligible. Predict the eligibility score E such that -R <= E <= R\n"
 	prompt += "Where, E=-R denotes that the patient is ineligible (not included by any inclusion criteria, or excluded by all exclusion criteria), E=R denotes that the patient is eligible and E=0 denotes the patient is neutral where no relevant information is availabel. None of the above two scores can be null.\n"
-	prompt += "Do not provide any extra note, only output a JSON dict formatted as: dict{str(inclusion_criteria_match): list(sentence id 1, sentence id 3, etc..), str(exclusion_criteria_match): list(sentence id 1, sentence id 3, etc..), str(relevance_explanation): str(explanation), str(relevance_score_R): int(score), str(eligibility_explanation): str(explanation), str(eligibility_score_E): int(score)} \n\n"
+	prompt += "Do not provide any extra note, only output a JSON dict formatted as: dict{str(inclusion_criteria_match): [1,3,4,...etc], str(exclusion_criteria_match): [1,3,4,...etc], str(relevance_explanation): str(explanation), str(relevance_score_R): int(score), str(eligibility_explanation): str(explanation), str(eligibility_score_E): int(score)} \n\n"
 
 
 	prompt += f"This is the clinical trial information:\n{trial_info}"
@@ -70,7 +70,7 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 
 	prompt = get_matching_prompt(inc_exc, trial_info, patient)
 
-	# print(prompt)
+	print(prompt)
 
 	messages = [
 		{"role": "user", "content": [{"text": prompt}]}
@@ -85,7 +85,7 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	)
 
 	output = response["output"]["message"]["content"][0]["text"] 
-	# print(output)
+	print(output)
 	try:
 		results = json.loads(output)
 	except Exception as e:
