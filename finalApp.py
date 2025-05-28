@@ -147,7 +147,7 @@ if st.button("Extract Trials"):
 
 
                 trial2score = {}
-                relevance_explanation = {}
+                to_display = {}
 
 
                 for trial_id, results in matching_results.items():
@@ -155,10 +155,16 @@ if st.button("Extract Trials"):
                     trial_score = get_matching_score(results)
 
                     if trial_score:
-
                         trial2score[trial_id] = trial_score
+                        # to_display[relevance_explanation] = results["relevance_explanation"]
+                        # relevance_explanation[trial_id] = results["relevance_explanation"]
 
-                        relevance_explanation[trial_id] = results["relevance_explanation"]
+                        to_display[trial_id] = {
+                            "relevance_explanation": results["relevance_explanation"],
+                            "list_of_inclusion": results["list_of_inclusion"],
+                            "list_of_exclusion": results["list_of_exclusion"]
+                        }
+                        
 
                 sorted_trial2score = sorted(trial2score.items(), key=lambda x: -x[1])
             
@@ -173,17 +179,35 @@ if st.button("Extract Trials"):
                     #extract the code
                     lilly_alias = data[trial].get('lillyAlias', [])
                     match = re.search(r"'([^']+)'", str(lilly_alias))
+
                     if match:
                         code = match.group(1)
                         lilly_alias = code
 
-                    explanation = relevance_explanation[trial]
+                    summary = data[trial].get('brief_summary', [])
+
+                    explanation = to_display[trial]["relevance_explanation"]
+                    inclusion_list = to_display[trial]['list_of_inclusion']
+                    exclusion_list = to_display[trial]['list_of_exclusion']
 
                     st.text("\n\n\n\n\n")
                     st.markdown(f"{index}. **Lilly ID: {lilly_alias}**, ")
-                    st.text(f"\nTitle: {title},")
-                    st.markdown(f"\nConfidence Score: **{score:.2f}**,")
-                    st.text(f"\nRelevance Explanation: {explanation}")
+                    st.markdown(f"\n**Title:** {title},")
+                    st.markdown(f"\n**Summary:** {summary[:230]}...")  # Display first 100 characters of summary
+                    st.markdown(f"\n**Confidence Score:** {score:.2f},")
+                    st.markdown(f"\n**Relevance Explanation:** {explanation}")
+                    # st.text(f"\nInclusion Criteria Matched: {inclusion_list}")
+                    st.text("\n\n")
+                    st.markdown("\n\nThe **Inclusion Criteria** that match this patient are:")
+                    for inc in inclusion_list:
+                        st.text(f"✅ {inc}")
+                    st.text("\n\n")
+                    st.markdown("\n\nThe **Exclusion Criteria** that exclude this patient are:")
+                    for exc in exclusion_list:
+                        st.text(f"❌ {exc}")
+
+
+                    # st.text(f"\nExclusion Criteria Matched: {', '.join(exclusion_list)}")
 
                     st.divider()
                     index += 1

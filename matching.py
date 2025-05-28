@@ -35,7 +35,7 @@ if __name__ == "__main__":
     patient_note = data['patient_note']
     sents = sent_tokenize(patient_note)
     sents.append("The patient will provide informed consent, and will comply with the trial protocol without any practical issues.")
-    sents = [f"{idx}. {sent}" for idx, sent in enumerate(sents)]
+    sents = [f"{idx}. {sent}" for idx, sent in enumerate(sents, start=1)]
     patient_note = "\n".join(sents) #a list of patient note which has been sentence tokenized and given a numerical ordering to each sentence.    
 
     # Iterate through trials in the dataset
