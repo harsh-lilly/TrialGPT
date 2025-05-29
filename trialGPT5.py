@@ -45,7 +45,7 @@ def get_matching_prompt(inc_exc, trial_info, patient):
 
 	prompt += f"This is the clinical trial information:\n{trial_info}"
 
-	prompt += f"Here is the patient note, each sentence is led by a sentence_id:\n{patient}\n\n" 
+	prompt += f"Here is the patient information:\n{patient}\n\n" 
 	return prompt
 
 
@@ -87,7 +87,7 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 
 	prompt = get_matching_prompt(inc_exc, trial_info, patient)
 
-	# print(prompt)
+	print(prompt)
 
 	messages = [
 		{"role": "user", "content": [{"text": prompt}]}
@@ -130,6 +130,11 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	inclusion_criterias_list = (converting_to_list(inclusion_criterias))
 	exclusion_criterias_list = (converting_to_list(exclusion_criterias))
 
+	list_of_criteria = {
+		"inclusion_criteria": inclusion_criterias_list,
+		"exclusion_criteria": exclusion_criterias_list
+	}
+
 	list_of_inclusion = []
 	list_of_exclusion = []
 
@@ -165,12 +170,8 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	except Exception as e:
 		print("Error in finding the criterias:", e)
 
-			
-			
 
-
-
-	return results
+	return results, list_of_criteria
 
 
 

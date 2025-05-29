@@ -167,30 +167,29 @@
         "keywords": []
     },
     {
-        "trial_id": "NCT06220669",
-        "brief_title": "A Study of LY3541860 in Adult Participants With Relapsing Multiple Sclerosis",
-        "official_title": "An Adaptive Phase 2a/2b, Randomized, Double-Blind, Parallel-Group Study to Investigate the Safety and Efficacy of LY3541860 Compared to Placebo in Slowing the Occurrence of New T1 Gadolinium-Enhancing Lesions in Adult Participants With Relapsing Multiple Sclerosis",
+        "trial_id": "NCT06657768",
+        "brief_title": "A Study of LY4006895 in Healthy Participants With Early Symptomatic Alzheimer's Disease (AD)",
+        "official_title": "A Placebo-Controlled, Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, PK and PD of LY4006895 in Healthy Volunteers and Patients With Early Symptomatic AD",
         "lillyAlias": [
-            "J3K-MC-KIAB"
+            "J5K-MC-OQAA"
         ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of LY3541860 in adult participants with multiple sclerosis that gets worse and gets better. The study will last about 9 months with additional 6 months follow-up.",
+        "brief_summary": "The main purpose of this study is to evaluate the safety and tolerability of the study drug known as LY4006895. Part A will administer a single-ascending dose in healthy participants or Part B will administer multiple-ascending doses in participants with early symptomatic Alzheimer's Disease (AD).\n\nBlood tests will be performed to check how much LY4006895 gets into the bloodstream and how long it takes the body to eliminate it.\n\nThis is a 2-part study and will last approximately 29 weeks for Part A and 61 weeks for Part B, including a screening period for each part.",
         "trial_status": "RECRUITING",
         "phase": [
-            "PHASE2"
+            "PHASE1"
         ],
         "diseases_list": [
-            "Multiple Sclerosis"
+            "Alzheimer Disease",
+            "Healthy"
         ],
         "drugs_list": [
-            "LY3541860",
+            "LY4006895",
             "Placebo"
         ],
-        "enrollment": 200,
-        "inclusion_criteria": "inclusion criteria: \n\n Participants must meet criteria for relapsing forms of multiple sclerosis, including relapsing-remitting multiple sclerosis based on the 2017 revision of the McDonald diagnostic criteria (Thompson et al. 2018) with a relapsing course (RMS) activity according to Klineova and Lublin 2018.\n Participants must have 1 of these:\n\n   at least 1 documented relapse within the previous year\n   at least 2 documented relapses within the previous 2 years, or\n   at least 1 active GdE brain lesion on an MRI scan in the past 180 days prior to screening.\n Have an Expanded Disability Status Scale (EDSS) score of less than or equal to (\u2264) 5.5 at screening and randomization.",
-        "exclusion_criteria": "exclusion criteria: \n\nHave had a diagnosis of:\n\n  primary progressive multiple sclerosis (MS) according to the 2017 revision of McDonald diagnostic criteria (Thompson et al. 2018), or\n  nonactive secondary progressive MS ( Klineova and Lublin 2018).\nMeet criteria for neuromyelitis optica spectrum disorder (Wingerchuk and Lucchinetti 2022).\nHave a history of clinically significant central nervous system (CNS) disease.\nHave had a confirmed relapse with systemic corticosteroid administration \\<30 days prior to randomization.\nHave more than 20 active GdE brain lesions on screening MRI scan.\nHave received any of these medications or treatments.\nHave a current or recent acute, active infection.\nHave current serious or unstable illnesses.\nHave any other clinically important abnormality at screening or baseline.",
-        "keywords": [
-            "Relapsing remitting multiple sclerosis, Clinically isolated syndrome, Secondary progressive multiple sclerosis with disease activity."
-        ]
+        "enrollment": 68,
+        "inclusion_criteria": "inclusion criteria: \n\n ",
+        "exclusion_criteria": "exclusion criteria: \n\n ",
+        "keywords": []
     },
     {
         "trial_id": "NCT06809400",
@@ -217,29 +216,30 @@
         "keywords": []
     },
     {
-        "trial_id": "NCT06657768",
-        "brief_title": "A Study of LY4006895 in Healthy Participants With Early Symptomatic Alzheimer's Disease (AD)",
-        "official_title": "A Placebo-Controlled, Single- and Multiple-Ascending Dose Study to Evaluate the Safety, Tolerability, PK and PD of LY4006895 in Healthy Volunteers and Patients With Early Symptomatic AD",
+        "trial_id": "NCT06220669",
+        "brief_title": "A Study of LY3541860 in Adult Participants With Relapsing Multiple Sclerosis",
+        "official_title": "An Adaptive Phase 2a/2b, Randomized, Double-Blind, Parallel-Group Study to Investigate the Safety and Efficacy of LY3541860 Compared to Placebo in Slowing the Occurrence of New T1 Gadolinium-Enhancing Lesions in Adult Participants With Relapsing Multiple Sclerosis",
         "lillyAlias": [
-            "J5K-MC-OQAA"
+            "J3K-MC-KIAB"
         ],
-        "brief_summary": "The main purpose of this study is to evaluate the safety and tolerability of the study drug known as LY4006895. Part A will administer a single-ascending dose in healthy participants or Part B will administer multiple-ascending doses in participants with early symptomatic Alzheimer's Disease (AD).\n\nBlood tests will be performed to check how much LY4006895 gets into the bloodstream and how long it takes the body to eliminate it.\n\nThis is a 2-part study and will last approximately 29 weeks for Part A and 61 weeks for Part B, including a screening period for each part.",
+        "brief_summary": "The main purpose of this study is to evaluate the safety and efficacy of LY3541860 in adult participants with multiple sclerosis that gets worse and gets better. The study will last about 9 months with additional 6 months follow-up.",
         "trial_status": "RECRUITING",
         "phase": [
-            "PHASE1"
+            "PHASE2"
         ],
         "diseases_list": [
-            "Alzheimer Disease",
-            "Healthy"
+            "Multiple Sclerosis"
         ],
         "drugs_list": [
-            "LY4006895",
+            "LY3541860",
             "Placebo"
         ],
-        "enrollment": 68,
-        "inclusion_criteria": "inclusion criteria: \n\n ",
-        "exclusion_criteria": "exclusion criteria: \n\n ",
-        "keywords": []
+        "enrollment": 200,
+        "inclusion_criteria": "inclusion criteria: \n\n Participants must meet criteria for relapsing forms of multiple sclerosis, including relapsing-remitting multiple sclerosis based on the 2017 revision of the McDonald diagnostic criteria (Thompson et al. 2018) with a relapsing course (RMS) activity according to Klineova and Lublin 2018.\n Participants must have 1 of these:\n\n   at least 1 documented relapse within the previous year\n   at least 2 documented relapses within the previous 2 years, or\n   at least 1 active GdE brain lesion on an MRI scan in the past 180 days prior to screening.\n Have an Expanded Disability Status Scale (EDSS) score of less than or equal to (\u2264) 5.5 at screening and randomization.",
+        "exclusion_criteria": "exclusion criteria: \n\nHave had a diagnosis of:\n\n  primary progressive multiple sclerosis (MS) according to the 2017 revision of McDonald diagnostic criteria (Thompson et al. 2018), or\n  nonactive secondary progressive MS ( Klineova and Lublin 2018).\nMeet criteria for neuromyelitis optica spectrum disorder (Wingerchuk and Lucchinetti 2022).\nHave a history of clinically significant central nervous system (CNS) disease.\nHave had a confirmed relapse with systemic corticosteroid administration \\<30 days prior to randomization.\nHave more than 20 active GdE brain lesions on screening MRI scan.\nHave received any of these medications or treatments.\nHave a current or recent acute, active infection.\nHave current serious or unstable illnesses.\nHave any other clinically important abnormality at screening or baseline.",
+        "keywords": [
+            "Relapsing remitting multiple sclerosis, Clinically isolated syndrome, Secondary progressive multiple sclerosis with disease activity."
+        ]
     },
     {
         "trial_id": "NCT06553872",

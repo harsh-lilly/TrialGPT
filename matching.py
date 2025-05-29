@@ -21,6 +21,9 @@ if __name__ == "__main__":
     dataset = json.load(open("storage/detailed_trials.json"))
     output_path = "storage/matching_results.json"
 
+    if os.path.exists(output_path):
+        os.remove(output_path)
+
     # Load or initialize output
     # if os.path.exists(output_path):
     #     output = json.load(open(output_path))
@@ -36,7 +39,7 @@ if __name__ == "__main__":
     sents = sent_tokenize(patient_note)
     sents.append("The patient will provide informed consent, and will comply with the trial protocol without any practical issues.")
     sents = [f"{idx}. {sent}" for idx, sent in enumerate(sents, start=1)]
-    patient_note = "\n".join(sents) #a list of patient note which has been sentence tokenized and given a numerical ordering to each sentence.    
+    patient_note = "\n".join(sents) #a list of patient note which has been sentence tokenized and given a numerical ordering to each sentence.
 
     # Iterate through trials in the dataset
     for trial in dataset:

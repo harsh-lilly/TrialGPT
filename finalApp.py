@@ -7,6 +7,8 @@ from retrieval_module import hybrid_retriever
 from matching_module import matching
 from ranking_module import ranking
 import torch
+import textract
+import tempfile
 
 
 def load_css(file_name):
@@ -51,8 +53,25 @@ st.title("TrialGPT Demo")
 json_file_path = 'storage/input.json'
 retrieved_trials = 'storage/retrieved_trials.json'
 detailed_results = 'storage/detailed_trials.json'
-new_note = st.text_area("Enter the patient info:", height=200)
 
+
+input_method = st.radio("Choose input method:", ["Text Input (Patient Summary)", "PDF Input (Patient Report)"])
+
+new_note = ""
+
+if input_method == "Text Input (Patient Summary)":
+    new_note = st.text_area("Enter the patient info:", height=200)
+
+elif input_method == "PDF Input (Patient Report)":
+    uploaded_file = st.file_uploader("Upload the patient report", type=["pdf"])
+    if uploaded_file:
+            
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
+                tmp_file.write(uploaded_file.read())
+                tmp_file_path = tmp_file.name
+                
+            text = textract.process(tmp_file_path, method='tesseract', language='eng')
+            new_note = text.decode("utf-8")
 
 
 if st.button("Extract Trials"):
@@ -223,8 +242,8 @@ if st.button("Extract Trials"):
         except Exception as e:
             st.error(f"An error occurred: {e}")
 
-    if os.path.exists("storage/matching_results.json"):
-        os.remove("storage/matching_results.json")
+    # if os.path.exists("storage/matching_results.json"):
+    #     os.remove("storage/matching_results.json")
 
     
     end_time = time.time()
