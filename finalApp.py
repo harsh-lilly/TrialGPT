@@ -32,8 +32,6 @@ def update_patient_note(file_path, new_note):
 torch.classes.__path__ = []
 
 
-
-
 # Apply CSS
 load_css("style.css")
 
@@ -146,9 +144,11 @@ if st.button("Extract Trials"):
                         net_criteria_score = total_inc - total_exc
 
                         relevance_score = matching["relevance_score_R"]
-                        eligibility_score = matching["eligibility_score_E"]
+                        # eligibility_score = matching["eligibility_score_E"]
 
-                        score = (relevance_score + eligibility_score) / 100
+                        # score = (relevance_score + eligibility_score) / 100
+
+                        score = relevance_score / 50
 
                         return net_criteria_score + score
 
@@ -175,14 +175,19 @@ if st.button("Extract Trials"):
 
                     if trial_score:
                         trial2score[trial_id] = trial_score
+                    else:
+                        trial2score[trial_id] = 0
+
+
+
                         # to_display[relevance_explanation] = results["relevance_explanation"]
                         # relevance_explanation[trial_id] = results["relevance_explanation"]
 
-                        to_display[trial_id] = {
-                            "relevance_explanation": results["relevance_explanation"],
-                            "list_of_inclusion": results["list_of_inclusion"],
-                            "list_of_exclusion": results["list_of_exclusion"]
-                        }
+                    to_display[trial_id] = {
+                        "relevance_explanation": results["relevance_explanation"],
+                        "list_of_inclusion": results["list_of_inclusion"],
+                        "list_of_exclusion": results["list_of_exclusion"]
+                    }
                         
 
                 sorted_trial2score = sorted(trial2score.items(), key=lambda x: -x[1])
@@ -212,18 +217,24 @@ if st.button("Extract Trials"):
                     st.text("\n\n\n\n\n")
                     st.markdown(f"{index}. **Lilly ID: {lilly_alias}**, ")
                     st.markdown(f"\n**Title:** {title},")
-                    st.markdown(f"\n**Summary:** {summary[:230]}...")  # Display first 100 characters of summary
+                    st.markdown(f"\n**CT Summary:** {summary[:230]}...")  # Display first 100 characters of summary
                     st.markdown(f"\n**Confidence Score:** {score:.2f},")
                     st.markdown(f"\n**Relevance Explanation:** {explanation}")
                     # st.text(f"\nInclusion Criteria Matched: {inclusion_list}")
                     st.text("\n\n")
                     st.markdown("\n\nThe **Inclusion Criteria** that match this patient are:")
                     for inc in inclusion_list:
-                        st.text(f"✅ {inc}")
+                        if inc == "No inclusion criteria matched.":
+                            st.text(f"{inc}")
+                        else:
+                            st.text(f"✅ {inc}")
                     st.text("\n\n")
                     st.markdown("\n\nThe **Exclusion Criteria** that exclude this patient are:")
                     for exc in exclusion_list:
-                        st.text(f"❌ {exc}")
+                        if exc == "No exclusion criteria matched.":
+                            st.text("No exclusion criteria matched.")
+                        else:
+                            st.text(f"❌ {exc}")
 
 
                     # st.text(f"\nExclusion Criteria Matched: {', '.join(exclusion_list)}")

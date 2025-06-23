@@ -2,7 +2,7 @@ import json
 from nltk.tokenize import sent_tokenize
 import os
 import sys
-from trialGPT5 import trialgpt_matching
+from TrialGPT import trialgpt_matching
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 import boto3

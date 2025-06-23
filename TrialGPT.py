@@ -76,32 +76,6 @@ def get_matching_prompt(
 	
 	prompt += "You should output only a JSON dict exactly formatted as: dict{str(criterion_number): list[str(element_1_brief_reasoning), list[int(element_2_sentence_id)], str(element_3_eligibility_label)]}."
 
-	sample_output = '''
-		"NCT02359643": {
-        "inclusion": {
-            "0": [
-                "The patient is a 2-year-old boy who has been diagnosed with Kawasaki Disease, which matches the first inclusion criterion.",
-                [
-                    0
-                ],
-                "included"
-            ],
-            "1": [
-                "The patient has had a fever for 5 days, which meets the criterion. However, the note does not specify the number of symptoms the patient has, so there is not enough information to determine if the patient meets this criterion.",
-                [
-                    0
-                ],
-                "not enough information"
-            ],
-            "2": [
-                "The patient has a strawberry tongue, which is a sign of diffuse mucosal inflammation. Therefore, the patient meets this criterion.",
-                [
-                    1
-                ],
-                "included"
-            ]
-	'''
-	# prompt += f"This is a sample output: {sample_output}"
 	
 	user_prompt = f"Here is the patient note, each sentence is led by a sentence_id:\n{patient}\n\n" 
 	user_prompt += f"Here is the clinical trial:\n{print_trial(trial_info, inc_exc)}\n\n"

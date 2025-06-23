@@ -27,22 +27,33 @@ def parse_criteria(criteria):
 
 def get_matching_prompt(inc_exc, trial_info, patient):
 
+
+
 	prompt = f"You are a helpful assistant for clinical trial recruitment. Your task is to compare a given patient note and the {inc_exc} criteria of a clinical trial to determine the patient's eligibility at the criterion level.\n"
-	prompt += "The factors that allow someone to participate in a clinical study are called inclusion criteria. And, the factors that disqualify someone from participating are called exclusion criteria."
-	prompt += "Both of these criterias are based on characteristics such as age, gender, the type and stage of a disease, previous treatment history, and other medical conditions."
-	prompt += f"You need to examine {inc_exc} criteria one-by-one and indentify the inclusion criterias that enable the patient to enroll into the clinicla trial and also identify exclusion criteria matches disqualifying the patient for the trial.\n"
+	prompt += "The factors that allow someone to participate in a clinical study are called inclusion criteria. The criterias that restrict/disqualify a patient from particpating are called exclusion criterias.\n"
+	prompt += "Both of these criterias are based on characteristics such as age, gender, the type and stage of a disease, previous treatment history, and other medical conditions.\n"
+	prompt += f"You need to examine {inc_exc} criteria one-by-one and determine which inclusion criterias of the ones provided match with patient information and enable them to participate. Simarlly of all the provided exclusion citerias which disqaulify the patient from particpiating.\n"
 	prompt += "Important: To determine if the patient matches a given inclusion or exclusion criteria you should have a 100 per cent confidence and your conclusion needs to be derived from the patient information and not assumption. At times, the patient information won't provide enough context to determine if the patient matches that inclusion or exclusiion criteria and you can simply ignore such criterias.\n"
-
+	prompt += "Do not assume scores or values. If a criterion mentions a specific test result (like MMSE score), only consider it a match if the exact value or range is mentioned in the patient note."
 	prompt += f"Each {inc_exc} criteria will be followed by sentence id, you need to output the list of sentence ids of the inclusion criteria that enable the patient to enroll into the trial. Similarly, you need to output the list of sentence ids of the exclusion criteria that disqualify the patient for trial.\n"
+	prompt += "Don't output any extra information but only output a JSON dict formatted as: dict{ 'inclusion_criteria_match': [1,3,6,...etc], 'exclusion_criteria_match': [1,3,6,...etc]} \n\n"
+
+	
 
 
 
-	# prompt += f"You should check the {inc_exc} criterias one-by-one and output how many inclusion criterias matches enabling the patient to enroll into the clinicla trial and also output how many exclusion criteria matches disqualifying the patient for the trial.\n"
-	prompt += "Then,your task is to output two scores, a relevance score (R) and an eligibility score (E), between the patient and the clinical trial.\n"
-	prompt += "First explain how the patient is relevant, then the score between 0 to 100. Where 0 represents the patient is totally irrelevant and 100 represents exaclty relevant.\n"
-	prompt += "Then, explain how the patient is eligible. Predict the eligibility score E such that -R <= E <= R\n"
-	prompt += "Where, E=-R denotes that the patient is ineligible (not included by any inclusion criteria, or excluded by all exclusion criteria), E=R denotes that the patient is eligible and E=0 denotes the patient is neutral where no relevant information is availabel. None of the above two scores can be null.\n"
-	prompt += "Do not provide any extra note, only output a JSON dict formatted as: dict{str(inclusion_criteria_match): [1,3,4,...etc], str(exclusion_criteria_match): [1,3,4,...etc], str(relevance_explanation): str(explanation), str(relevance_score_R): int(score), str(eligibility_explanation): str(explanation), str(eligibility_score_E): int(score)} \n\n"
+
+	# prompt = f"You are a helpful assistant for clinical trial recruitment. Your task is to compare a given patient note and the {inc_exc} criteria of a clinical trial to determine the patient's eligibility at the criterion level.\n"
+	# prompt += "The factors that allow someone to participate in a clinical study are called inclusion criteria. And, the factors that disqualify someone from participating are called exclusion criteria."
+	# prompt += "Both of these criterias are based on characteristics such as age, gender, the type and stage of a disease, previous treatment history, and other medical conditions."
+	# prompt += f"You need to examine {inc_exc} criteria one-by-one and indentify the inclusion criterias that enable the patient to enroll into the clinicla trial and also identify exclusion criteria matches disqualifying the patient for the trial.\n"
+	# prompt += f"Basically each {inc_exc} criteria will be followed by sentence id, you need to output the list of sentence ids of the inclusion criteria that enable the patient to enroll into the trial. Similarly, you need to output the list of sentence ids of the exclusion criteria that disqualify the patient for trial.\n"
+	# # prompt += f"You should check the {inc_exc} criterias one-by-one and output how many inclusion criterias matches enabling the patient to enroll into the clinicla trial and also output how many exclusion criteria matches disqualifying the patient for the trial.\n"
+	# prompt += "Then,your task is to output two scores, a relevance score (R) and an eligibility score (E), between the patient and the clinical trial.\n"
+	# prompt += "First explain how the patient is relevant, then the score between 0 to 100. Where 0 represents the patient is totally irrelevant and 100 represents exaclty relevant.\n"
+	# prompt += "Then, explain how the patient is eligible. Predict the eligibility score E such that -R <= E <= R\n"
+	# prompt += "Where, E=-R denotes that the patient is ineligible (not included by any inclusion criteria, or excluded by all exclusion criteria), E=R denotes that the patient is eligible and E=0 denotes the patient is neutral where no relevant information is availabel. None of the above two scores can be null.\n"
+	# prompt += "Do not provide any extra note, only output a JSON dict formatted as: dict{str(inclusion_criteria_match): [1,3,4,...etc], str(exclusion_criteria_match): [1,3,4,...etc], str(relevance_explanation): str(explanation), str(relevance_score_R): int(score), str(eligibility_explanation): str(explanation), str(eligibility_score_E): int(score)} \n\n"
 
 
 	prompt += f"This is the clinical trial information:\n{trial_info}"
@@ -77,7 +88,6 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	
 	for inc_exc in ["inclusion", "exclusion"]:
 
-
 		if inc_exc == "inclusion":
 			trial_info += "Inclusion criterias of the Clinical Trial:\n%s\n" % inclusion_criterias
 		elif inc_exc == "exclusion":
@@ -96,14 +106,16 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	]
 
 	response = client.converse(
-		modelId="us.meta.llama3-3-70b-instruct-v1:0",
+		modelId="us.anthropic.claude-3-7-sonnet-20250219-v1:0",
 		messages=messages,
 		inferenceConfig={
 			"temperature": 0.0
 		}
 	)
 
-	output = response["output"]["message"]["content"][0]["text"] 
+	output = response["output"]["message"]["content"][0]["text"]
+
+	print(output) 
 	
 	try:
 		results = json.loads(output)
@@ -127,7 +139,7 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 	#see the output	
 	# print(results)
 
-
+	# try:
 
 	inclusion_criterias_list = (converting_to_list(inclusion_criterias))
 	exclusion_criterias_list = (converting_to_list(exclusion_criterias))
