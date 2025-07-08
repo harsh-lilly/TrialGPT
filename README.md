@@ -23,12 +23,20 @@ Ensure you have the following installed:
 pip install -r requirements.txt
 ```
 
+### Preparing the Dataset: 
+
+1. Run ct_api.py to extract the data from [CT.gov](https://clinicaltrials.gov) public repository
+
+2. Then, run ETL.py for data transformation in required standard and format
+
+### This application will need either AWS (Bedrock) or Azure (OpenAI) access
+
 
 ### Running the App
 - To intialize the streamlit app, run
 
  ```sh
-streamlit run finalApp.py
+streamlit run mainApp.py
 ```
 
 ### Patient Info

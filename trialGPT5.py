@@ -4,6 +4,8 @@ import re
 
 client = boto3.client(service_name="bedrock-runtime")
 
+#Uses bedrock and process IE in one run along with the score.
+
 
 def parse_criteria(criteria):
 	output = ""

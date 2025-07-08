@@ -4,8 +4,7 @@ import re
 import time
 import os
 from retrieval_module import hybrid_retriever
-from matching_module import matching
-from ranking_module import ranking
+from matching_asynch import matching
 import torch
 import textract
 import tempfile
@@ -15,7 +14,7 @@ def load_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Function to load the JSON file
+# load the JSON file
 def load_json(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
@@ -43,7 +42,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# Add space to prevent content from being hidden under the fixed header
+# Adding space on top to prevent the header to overlap 
 st.write("<br><br><br>", unsafe_allow_html=True)
 
 st.title("TrialGPT Demo")
@@ -134,27 +133,71 @@ if st.button("Extract Trials"):
   
                 st.subheader("Ranked Trials:")
 
+                eps = 1e-9
+
+
                 def get_matching_score(matching):
 
                     try:
+                        included = 0
+                        not_inc = 0
+                        no_info_inc = 0
 
-                        total_inc = len(matching["inclusion_criteria_match"])
-                        total_exc = len(matching["exclusion_criteria_match"])
+                        excluded = 0
+                        not_exc = 0
+                        no_info_exc = 0
 
-                        net_criteria_score = total_inc - total_exc
+                        included_criteria = {}
 
-                        relevance_score = matching["relevance_score_R"]
-                        # eligibility_score = matching["eligibility_score_E"]
+                        excluded_criteria = {}
 
-                        # score = (relevance_score + eligibility_score) / 100
+                        # Count inclusion criteria
+                        for criteria, info in matching["inclusion"].items():
+                            if len(info) != 3:
+                                continue
+                            if info[2] == "included":
+                                included += 1
 
-                        score = relevance_score / 50
+                                included_criteria[int(criteria)] = info[0]
+                                        
+                            elif info[2] == "not included":
+                                not_inc += 1
+                            elif info[2] == "not enough information":
+                                no_info_inc += 1
 
-                        return net_criteria_score + score
+
+                            
+                        try:
+                            # Count exclusion criteria
+                            for criteria, info in matching["exclusion"].items():
+                                if len(info) != 3:
+                                    continue
+
+                                if info[2] == "excluded":
+                                    excluded += 1
+
+                                    excluded_criteria[int(criteria)] = info[0]
+                                elif info[2] == "not excluded":
+                                    not_exc += 1
+                                elif info[2] == "not enough information":
+                                    no_info_exc += 1
+                        except Exception as e:
+                            print(e)
 
                     except Exception as e:
-                        print("Error:", e)
+                        # print("Error:", e)
                         return None
+                    
+                    score = 0   
+                    score += included / (included + not_inc + no_info_inc + eps)
+
+                    if not_inc > 0:
+                        score -= 1
+
+                    if excluded > 0:
+                        score -= 1
+
+                    return score, included_criteria, excluded_criteria
                                 
 
                 matching_results_path = "storage/matching_results.json"
@@ -171,23 +214,41 @@ if st.button("Extract Trials"):
 
                 for trial_id, results in matching_results.items():
 
-                    trial_score = get_matching_score(results)
-
-                    if trial_score:
-                        trial2score[trial_id] = trial_score
+                    score_tuple = get_matching_score(results)
+                    if score_tuple is None:
+                        trial_score, included_criteria, excluded_criteria = 0, {}, {}
                     else:
-                        trial2score[trial_id] = 0
+                        trial_score, included_criteria, excluded_criteria = score_tuple
+
+                    # print(results)
+                    try:
+                        to_display[trial_id] = {
+                            "included_criteria": included_criteria,
+                            "excluded_criteria": excluded_criteria,
+                            "whole_inclusion": results["inclusion_criteria"],
+                            "whole_exclusion": results["exclusion_criteria"]
+                        }
+                    except:
+                        to_display[trial_id] = {
+                            "included_criteria": included_criteria,
+                            "excluded_criteria": excluded_criteria,
+                            "whole_inclusion": [],
+                            "whole_exclusion": []
+                        }
+            
+
+                    trial2score[trial_id] = trial_score if trial_score else 0
 
 
 
                         # to_display[relevance_explanation] = results["relevance_explanation"]
                         # relevance_explanation[trial_id] = results["relevance_explanation"]
 
-                    to_display[trial_id] = {
-                        "relevance_explanation": results["relevance_explanation"],
-                        "list_of_inclusion": results["list_of_inclusion"],
-                        "list_of_exclusion": results["list_of_exclusion"]
-                    }
+                    # to_display[trial_id] = {
+                    #     "relevance_explanation": results["relevance_explanation"],
+                    #     "list_of_inclusion": results["list_of_inclusion"],
+                    #     "list_of_exclusion": results["list_of_exclusion"]
+                    # }
                         
 
                 sorted_trial2score = sorted(trial2score.items(), key=lambda x: -x[1])
@@ -210,41 +271,68 @@ if st.button("Extract Trials"):
 
                     summary = data[trial].get('brief_summary', [])
 
-                    explanation = to_display[trial]["relevance_explanation"]
-                    inclusion_list = to_display[trial]['list_of_inclusion']
-                    exclusion_list = to_display[trial]['list_of_exclusion']
+                    # explanation = to_display[trial]["relevance_explanation"]
+                    inclusion_list = to_display[trial]['included_criteria']
+                    exclusion_list = to_display[trial]['excluded_criteria']
+
+                    whole_inclusion = to_display[trial]['whole_inclusion']
+                    whole_exclusion = to_display[trial]['whole_exclusion']
 
                     st.text("\n\n\n\n\n")
+
                     st.markdown(f"{index}. **Lilly ID: {lilly_alias}**, ")
                     st.markdown(f"\n**Title:** {title},")
                     st.markdown(f"\n**CT Summary:** {summary[:230]}...")  # Display first 100 characters of summary
                     st.markdown(f"\n**Confidence Score:** {score:.2f},")
-                    st.markdown(f"\n**Relevance Explanation:** {explanation}")
+                    # st.markdown(f"\n**Relevance Explanation:** {explanation}")
                     # st.text(f"\nInclusion Criteria Matched: {inclusion_list}")
                     st.text("\n\n")
-                    st.markdown("\n\nThe **Inclusion Criteria** that match this patient are:")
-                    for inc in inclusion_list:
-                        if inc == "No inclusion criteria matched.":
-                            st.text(f"{inc}")
-                        else:
-                            st.text(f"✅ {inc}")
-                    st.text("\n\n")
-                    st.markdown("\n\nThe **Exclusion Criteria** that exclude this patient are:")
-                    for exc in exclusion_list:
-                        if exc == "No exclusion criteria matched.":
-                            st.text("No exclusion criteria matched.")
-                        else:
-                            st.text(f"❌ {exc}")
+                    st.markdown("\n\nThe **Inclusion Criteria** analysis on this patient:")
+
+                    for idx in range(1, len(whole_inclusion) + 1):
+                        try:
+                            if inclusion_list[idx]:
+                                st.text(f"✅ {whole_inclusion[idx - 1]} ")
+                                st.markdown("**Explanation:**")
+                                st.text(inclusion_list[idx])
+                        except:
+                            st.text(f"❔ {whole_inclusion[idx - 1]}")
+
+                    st.markdown("\n\nThe **Exclusion Criteria** analysis on this patient:")
+                    for idx in range(1, len(whole_exclusion) + 1):
+                        try:
+                            if exclusion_list[idx]:
+                                st.text(f"❌ {whole_exclusion[idx - 1]} ")
+                                st.markdown("**Explanation:**")
+                                st.text(exclusion_list[idx])
+                        except:
+                            st.text(f"❔ {whole_exclusion[idx - 1]}")
+
+
+
+
+                    # st.text(inclusion_list)
+
+                    # st.text(to_display[trial])
+
+                    # for inc in inclusion_list:
+                    #     if inc == "No inclusion criteria matched.":
+                    #         st.text(f"{inc}")
+                    #     else:
+                    #         st.text(f"✅ {inc}")
+                    # st.text("\n\n")
+                    # st.markdown("\n\nThe **Exclusion Criteria** that exclude this patient are:")
+                    # for exc in exclusion_list:
+                    #     if exc == "No exclusion criteria matched.":
+                    #         st.text("No exclusion criteria matched.")
+                    #     else:
+                    #         st.text(f"❌ {exc}")
 
 
                     # st.text(f"\nExclusion Criteria Matched: {', '.join(exclusion_list)}")
 
                     st.divider()
                     index += 1
-
-                # result = ranking()
-                # st.text(result)
-
 
             except Exception as e:
                 st.error(f"An error occurred: {e}")

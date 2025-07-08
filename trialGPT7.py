@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# client = boto3.client(service_name="bedrock-runtime")
+#Uses OpenAI's GPT4 for processing. Does one single pass to process the IE criterias and calculate score. 
 
 client = AzureOpenAI(
 	api_version="2023-09-01-preview",

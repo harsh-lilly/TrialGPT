@@ -1,76 +1,8 @@
 {
-    "NCT05508789": {
+    "NCT06566170": {
         "inclusion": {
-            "0": [
-                "The criterion requires a gradual and progressive change in memory function for \u22656 months. The patient note mentions 'progressive memory loss' but does not specify the duration. It's possible that a good patient note could miss such information if not explicitly stated.",
-                [
-                    1
-                ],
-                "not enough information"
-            ],
             "1": [
-                "The criterion requires a MMSE score of 20 to 28 inclusive. The patient note states 'MMSE score of 21'.",
-                [
-                    6
-                ],
-                "included"
-            ],
-            "2": [
-                "The criterion requires meeting flortaucipir F18 scan criteria. There is no mention of flortaucipir F18 scan in the patient note.",
-                [],
-                "not included"
-            ],
-            "3": [
-                "The criterion requires meeting florbetapir F18 scan criteria. There is no mention of florbetapir F18 scan in the patient note.",
-                [],
-                "not included"
-            ],
-            "4": [
-                "The criterion requires a study partner who is in frequent contact with the participant and available for assessments. The patient note mentions that the patient 'will provide informed consent, and will comply with the trial protocol without any practical issues' but does not mention a study partner.",
-                [],
-                "not enough information"
-            ]
-        },
-        "exclusion": {
-            "0": [
-                "The patient has early Alzheimer's disease, but there is no mention of other significant neurological diseases affecting the central nervous system. The note does not provide direct evidence of other neurological conditions, but the diagnosis of Alzheimer's disease suggests a focus on this condition. It is unlikely that a good patient note would miss significant other neurological conditions if they existed.",
-                [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7
-                ],
-                "not excluded"
-            ],
-            "1": [
-                "The patient does not have any mention of current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, psychiatric, immunologic, or hematologic diseases. There is no direct evidence provided, but it is unlikely that a good patient note would miss such significant conditions if they existed.",
-                [],
-                "not excluded"
-            ],
-            "2": [
-                "The patient does not mention a history of cancer within the last 5 years, except for low-risk cancers. There is no direct evidence provided, but it is unlikely that a good patient note would miss such significant information if it existed.",
-                [],
-                "not excluded"
-            ],
-            "3": [
-                "The patient does not mention any contraindication to MRI or PET scans.",
-                [],
-                "not excluded"
-            ]
-        }
-    },
-    "NCT06297590": {
-        "inclusion": {
-            "0": [
-                "The patient's BMI is not mentioned in the note, so it's not applicable to judge whether the criterion is met or not.",
-                [],
-                "not applicable"
-            ],
-            "1": [
-                "The patient has gradual and progressive memory loss, which fits the description of gradual and progressive change in memory function for \u22656 months.",
+                "The patient is under care for presumed mild cognitive impairment (MCI) or mild dementia stage of AD, as indicated by progressive memory loss and severe cognitive deficits. This criterion is applicable.",
                 [
                     1,
                     2
@@ -78,472 +10,553 @@
                 "included"
             ],
             "2": [
-                "The patient's MMSE score is 21, which falls within the range of 18 to 30.",
-                [
-                    6
-                ],
-                "included"
+                "The patient note does not provide a TICS score. It is not possible to infer this information from the provided details. Therefore, there is not enough information.",
+                [],
+                "not enough information"
             ],
             "3": [
-                "The patient's clinical dementia rating (CDR) global score and memory box score are not mentioned in the note. It's not enough information to determine if they meet the criteria.",
+                "The patient note does not mention any amyloid beta (A\u03b2) pathology biomarkers such as P-tau, amyloid PET, or CSF. It is not possible to infer this information from the provided details. Therefore, there is not enough information.",
                 [],
                 "not enough information"
             ],
             "4": [
-                "The patient's flortaucipir F18 PET scan results are not mentioned in the note. It's not enough information to determine if they demonstrate evidence of tau pathology.",
+                "The patient note does not mention the presence of a reliable study partner. It is not possible to infer this information from the provided details. Therefore, there is not enough information.",
                 [],
                 "not enough information"
             ],
             "5": [
-                "There is no information regarding contraceptive requirements for males or childbearing potential for females.",
-                [],
-                "not enough information"
-            ],
-            "6": [
-                "There is no information regarding the presence of up to 2 study partners who are with the participant at least 10 hours per week and one of whom can attend study appointments.",
+                "The patient note does not mention the availability of EHR data or willingness to allow access. It is not possible to infer this information from the provided details. Therefore, there is not enough information.",
                 [],
                 "not enough information"
             ]
         },
+        "inclusion_criteria": [
+            "1. are under care for presumed mild cognitive impairment (MCI) or mild dementia stage of AD (Note: neither a biomarker-based diagnosis of AD nor a diagnosis in electronic health records \\[EHR\\] is required prior to screening)",
+            "2. have a Telephone Interview for Cognitive Status (TICS) score of \u226521",
+            "3. presence of amyloid beta (A\u03b2) pathology supported by biomarker results (e.g., P-tau, amyloid positron emission tomography (PET), and/or cerebrospinal fluid \\[CSF\\]). (Note: A historical biomarker may be used for eligibility if performed within 12 months of study entry)",
+            "4. have a reliable study partner who is in frequent contact with the participant and will be available by telephone at designated times (every 6 months), and",
+            "5. have EHR data available for linkage and are willing to allow access to EHR data for the duration of the study."
+        ],
         "exclusion": {
-            "0": [
-                "The patient does not have any mentioned serious or unstable illnesses other than Alzheimer's Disease, and there is no mention of life expectancy being less than 24 months. It is not applicable to infer other conditions without evidence.",
-                [],
-                "not applicable"
-            ],
             "1": [
-                "No mention of sensitivity to flortaucipir F18 in the patient note.",
+                "The patient does not have a history of ischemic or hemorrhagic stroke, nor is there any mention of an inability to independently perform basic activities of daily living (ADLs).",
                 [],
                 "not applicable"
             ],
             "2": [
-                "No mention of contraindication to MRI, including metal implants or claustrophobia.",
+                "There is no mention of serious or unstable illness other than Alzheimer's Disease in the patient's note.",
                 [],
-                "not applicable"
+                "not excluded"
             ],
             "3": [
-                "No mention of current exposure to amyloid-targeted therapy (ATT).",
+                "There is no mention of the patient being enrolled or intending to enroll in another clinical trial.",
                 [],
                 "not excluded"
             ],
             "4": [
-                "No mention of previous exposure to any investigational medicinal product administered intrathecal (IT) or any anti-tau therapy.",
-                [],
-                "not excluded"
-            ],
-            "5": [
-                "No mention of a history of clinically significant back pain, back pathology, or back injury.",
+                "The patient does not have any contraindications to donanemab, MRI, or amyloid PET tracers mentioned in the note.",
                 [],
                 "not excluded"
             ]
-        }
+        },
+        "exclusion_criteria": [
+            "1. have prior ischemic or hemorrhagic stroke(s) with an inability to independently perform any one or more basic activities of daily living (ADLs) (i.e., walking, transferring, eating, bathing, dressing, or toileting). (Note: mixed dementias with amyloid pathology are permitted)",
+            "2. have current or recent serious or unstable illness (other than AD) that, in the investigator's opinion, could interfere with the ability of the participant or study partner to complete the study (e.g., life expectancy of less than 36 months, requirement for long-term (\\>12 months) institutional-level care, serious psychiatric illness, etc.)",
+            "3. are currently enrolled or intend to enroll in a clinical trial of another investigational product, and",
+            "4. have contraindications to donanemab, magnetic resonance imaging (MRI), or amyloid PET tracers. (Donanemab group only)."
+        ]
     },
-    "NCT05026866": {
-        "inclusion": {
-            "0": [
-                "The patient note does not mention a TICS-M score. It is not possible to infer the cognitive status from the provided information. Therefore, the criterion is not applicable.",
+    "NCT06657768": {
+        "inclusion": "{\n  \"1\": [\"The patient is a 62-year-old man with progressive memory loss and cognitive deficits, which are symptoms of Alzheimer's Disease. The EEG and neuroimaging studies support the diagnosis of Alzheimer's Disease. The cortical biopsy shows changes consistent with Alzheimer's Disease. The patient does not meet the inclusion criteria because the patient has Alzheimer's Disease, not a healthy state. [], \"not applicable\"],\n  \"2\": [\"The patient has progressive memory loss and cognitive deficits, which are symptoms of Alzheimer's Disease. The EEG and neuroimaging studies support the diagnosis of Alzheimer's Disease. The cortical biopsy shows changes consistent with Alzheimer's Disease. The patient does not meet the inclusion criteria because the patient has Alzheimer's Disease, not early symptomatic Alzheimer's Disease. [], \"not included\"]\n}",
+        "exclusion": {
+            "1": [
+                "The patient has progressive memory loss and jerking movements, which indicates a diagnosis of a neurological condition, not a healthy participant. The study is for early symptomatic Alzheimer's Disease (AD), and the patient's symptoms do not align with this. Therefore, the criterion is not applicable.",
                 [],
                 "not applicable"
             ],
+            "2": [
+                "The patient has severe cognitive deficits and memory dysfunction, which are symptoms of Alzheimer's Disease, not a healthy participant. The study is for early symptomatic Alzheimer's Disease (AD), and the patient's symptoms do not align with this. Therefore, the criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient has generalized periodic sharp waves on an electroencephalogram, moderately advanced cerebral atrophy on neuroimaging, and diffuse vacuolar changes on cortical biopsy, all indicative of Alzheimer's Disease. The study is for early symptomatic Alzheimer's Disease (AD), and the patient's symptoms do not align with this. Therefore, the criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The patient's compliance with the trial protocol is assured, but the study is for early symptomatic Alzheimer's Disease (AD), and the patient's symptoms do not align with this. Therefore, the criterion is not applicable.",
+                [],
+                "not applicable"
+            ]
+        },
+        "exclusion_criteria": []
+    },
+    "NCT06653153": {
+        "inclusion": {
             "1": [
-                "The patient note does not mention a phosphorylated tau (P-tau) result. It is not possible to infer the presence of amyloid and early-tau pathology from the provided information.",
+                "The patient note does not mention phosphorylated tau (P-tau) results. It is possible that a good patient note could miss such information, but it is crucial for diagnosis in this study.",
                 [],
                 "not enough information"
             ],
             "2": [
-                "The patient note does not mention a reliable study partner or backup study partner. It is not possible to infer the availability of such partners from the provided information.",
+                "The patient note does not mention the presence of a reliable study partner and backup study partner familiar with the patient's function and behavior.",
                 [],
                 "not enough information"
             ],
             "3": [
-                "The patient note does not mention literacy, vision, or hearing. It is not possible to infer these conditions from the provided information.",
+                "The patient note does not provide information about the patient's literacy, vision, or hearing.",
                 [],
                 "not enough information"
             ],
             "4": [
-                "The patient note does not mention contraceptive use by men or women. It is not possible to infer this information from the provided information.",
+                "The patient note does not provide a Mini Mental Status Exam (MMSE) score.",
                 [],
                 "not enough information"
             ],
             "5": [
-                "The patient note does not mention female participants' reproductive status. It is not possible to infer the eligibility of female participants from the provided information.",
+                "The patient note does not provide a Functional Activities Questionnaire (FAQ) score.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "The patient note does not mention if the patient is currently receiving medications for Alzheimer's disease or if the dose has been stable for at least 30 days before screening.",
                 [],
                 "not enough information"
             ]
         },
+        "inclusion_criteria": [
+            "1. Have a phosphorylated tau (P-tau) result consistent with the presence of amyloid pathology.",
+            "2. Have a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.",
+            "3. Have adequate literacy, vision, and hearing for neuropsychological testing at screening.",
+            "4. Have a Mini Mental Status Exam (MMSE) score consistent with no to minimal cognitive impairment.",
+            "5. Have a Functional Activities Questionnaire (FAQ) score consistent with no to minimal functional impairment.",
+            "6. If currently receiving medications as symptomatic treatment for AD, dose has been stable for at least 30 days before screening."
+        ],
         "exclusion": {
-            "0": [
-                "The patient has progressive memory loss and jerking movements, indicating cognitive deficits and memory dysfunction, which are symptoms of Alzheimer's Disease. Therefore, the criterion is applicable and the patient is not excluded.",
-                [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6
-                ],
-                "not excluded"
-            ],
             "1": [
-                "The patient has no mention of current serious or unstable illnesses that could interfere with the study or have a life expectancy of \u22645 years.",
+                "The patient has progressive memory loss and jerking movements, which could indicate dementia or significant neurological disease. However, the diagnosis is not explicitly stated as Alzheimer's Disease, which is the specific target of this study. The note does not provide enough information to confirm the presence of dementia or significant other neurological disease.",
                 [],
-                "not excluded"
+                "not enough information"
             ],
             "2": [
-                "The patient has no history of cancer with high risk of recurrence.",
+                "The patient note does not mention any serious or unstable illnesses that could interfere with the study.",
                 [],
                 "not excluded"
             ],
             "3": [
-                "The patient has no history of clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions.",
+                "The patient note does not mention any history of cancer.",
                 [],
                 "not excluded"
             ],
             "4": [
-                "The patient has no clinically important abnormalities at screening on MRI or clinical laboratory test results.",
+                "The patient note does not mention any history of clinically significant multiple or severe drug allergies, or hypersensitivity reactions.",
                 [],
                 "not excluded"
             ],
             "5": [
-                "The patient has no contraindications for MRI, including claustrophobia or the presence of contraindicated metal implants/cardiac pacemaker.",
+                "The patient note does not mention any clinically important laboratory test results or other abnormalities.",
                 [],
-                "not excluded"
+                "not enough information"
             ],
             "6": [
-                "The patient has no centrally read MRI demonstrating presence of amyloid-related imaging abnormalities (ARIA-E), >4 cerebral microhemorrhages, more than 1 area of superficial siderosis, any macrohemorrhage or severe white matter disease at screening.",
+                "The patient note does not mention any contraindications for MRI.",
                 [],
                 "not excluded"
             ],
             "7": [
-                "The patient has not had prior treatment with a passive anti-amyloid immunotherapy within 5 half-lives prior to randomization.",
+                "The patient note does not mention any centrally read MRI results.",
                 [],
-                "not excluded"
+                "not enough information"
             ],
             "8": [
-                "The patient has not received active immunization against amyloid beta (A\u03b2) in any other study.",
+                "The patient note does not mention any prior or current therapies.",
                 [],
-                "not excluded"
+                "not enough information"
             ],
             "9": [
-                "The patient has not received active immunization against A\u03b2 in any other study.",
+                "The patient note does not mention any prior treatment with passive anti-amyloid immunotherapy.",
                 [],
                 "not excluded"
             ],
             "10": [
-                "The patient has no current or previous use of prescription medications used as treatment for mild cognitive impairment (MCI) or AD.",
+                "The patient note does not mention any active immunization against A\u03b2 in any other study.",
                 [],
                 "not excluded"
+            ]
+        },
+        "exclusion_criteria": [
+            "1. Have dementia or significant other neurological disease that can affect cognition.",
+            "2. Have current serious or unstable illnesses that in the investigator's opinion, could interfere with the analyses of the study.",
+            "3. Have a history of cancer that, in the investigator's opinion, has a high risk of recurrence.",
+            "4. Have a history of clinically significant multiple or severe drug allergies, or hypersensitivity reactions.",
+            "5. Have a clinically important laboratory test result or other abnormality as determined by investigator, prior to randomization, that could be detrimental to the participant or could compromise the study.",
+            "6. Have any contraindications for magnetic resonance imaging (MRI).",
+            "7. Have a centrally read MRI that does not meets study entry criteria.",
+            "8. Prior or Current Therapies",
+            "9. Have ever had prior treatment with a passive anti-amyloid immunotherapy.",
+            "10. Have received active immunization against A\u03b2 in any other study."
+        ]
+    },
+    "NCT06220669": {
+        "inclusion": {
+            "1": [
+                "The criterion is not applicable because the patient note describes progressive memory loss and jerking movements, which are not symptoms of relapsing multiple sclerosis (RMS). The note does not mention multiple sclerosis or any relapsing course.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The criterion is not applicable because the patient note does not mention multiple sclerosis at all.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The criterion is not applicable because the patient note does not mention any documented relapses.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The criterion is not applicable because the patient note does not mention any documented relapses.",
+                [],
+                "not applicable"
+            ],
+            "5": [
+                "The criterion is not applicable because the patient note does not mention any GdE brain lesions.",
+                [],
+                "not applicable"
+            ],
+            "6": [
+                "The criterion is not applicable because the patient note does not mention any EDSS scores.",
+                [],
+                "not applicable"
+            ]
+        },
+        "inclusion_criteria": [
+            "1. Participants must meet criteria for relapsing forms of multiple sclerosis, including relapsing-remitting multiple sclerosis based on the 2017 revision of the McDonald diagnostic criteria (Thompson et al. 2018) with a relapsing course (RMS) activity according to Klineova and Lublin 2018.",
+            "2. Participants must have 1 of these:",
+            "3. at least 1 documented relapse within the previous year",
+            "4. at least 2 documented relapses within the previous 2 years, or",
+            "5. at least 1 active GdE brain lesion on an MRI scan in the past 180 days prior to screening.",
+            "6. Have an Expanded Disability Status Scale (EDSS) score of less than or equal to (\u2264) 5.5 at screening and randomization."
+        ],
+        "exclusion": {
+            "1": [
+                "The patient note does not mention primary progressive MS or nonactive secondary progressive MS, and there is no evidence of neuromyelitis optica spectrum disorder. It is not possible to infer these conditions from the provided information.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient note does not mention primary progressive MS or nonactive secondary progressive MS, and there is no evidence of neuromyelitis optica spectrum disorder. It is not possible to infer these conditions from the provided information.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient note does not mention neuromyelitis optica spectrum disorder. It is not possible to infer this condition from the provided information.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note describes cerebral atrophy and generalized periodic sharp waves, but does not mention any other clinically significant CNS disease. It is not possible to infer other CNS diseases from the provided information.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any recent relapses or systemic corticosteroid administration. It is not possible to infer this information from the provided details.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any MRI scans or details about active GdE brain lesions. It is not possible to infer this information from the provided details.",
+                [],
+                "not enough information"
+            ],
+            "7": [
+                "The patient note does not mention any specific medications or treatments received. It is not possible to infer this information from the provided details.",
+                [],
+                "not enough information"
+            ],
+            "8": [
+                "The patient note does not mention any current or recent acute, active infections. It is not possible to infer this information from the provided details.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note does not mention any current serious or unstable illnesses. It is not possible to infer this information from the provided details.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "The patient note does not mention any other clinically important abnormalities at screening or baseline. It is not possible to infer this information from the provided details.",
+                [],
+                "not excluded"
+            ]
+        },
+        "exclusion_criteria": [
+            "1. primary progressive multiple sclerosis (MS) according to the 2017 revision of McDonald diagnostic criteria (Thompson et al. 2018), or",
+            "2. nonactive secondary progressive MS ( Klineova and Lublin 2018).",
+            "3. Meet criteria for neuromyelitis optica spectrum disorder (Wingerchuk and Lucchinetti 2022).",
+            "4. Have a history of clinically significant central nervous system (CNS) disease.",
+            "5. Have had a confirmed relapse with systemic corticosteroid administration \\<30 days prior to randomization.",
+            "6. Have more than 20 active GdE brain lesions on screening MRI scan.",
+            "7. Have received any of these medications or treatments.",
+            "8. Have a current or recent acute, active infection.",
+            "9. Have current serious or unstable illnesses.",
+            "10. Have any other clinically important abnormality at screening or baseline."
+        ]
+    },
+    "NCT05026866": {
+        "inclusion": {
+            "1": [
+                "The patient does not meet the criterion as they have severe cognitive deficits and memory dysfunction, which indicates impaired cognitive functioning. Therefore, the criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient note does not mention any details about phosphorylated tau (P-tau) results. It is impossible to determine if the patient's P-tau result is consistent with the presence of amyloid and early-tau pathology.",
+                [],
+                "not enough information"
+            ],
+            "3": [
+                "The patient note does not mention any information about a study partner or backup study partner familiar with the patient's overall function and behavior.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "The patient note does not mention any details about the patient's literacy, vision, or hearing. It is impossible to determine if the patient has adequate literacy, vision, and hearing for neuropsychological testing.",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "The patient note does not mention any details about contraceptive use by the patient. This criterion is not applicable to the patient as it is a male.",
+                [],
+                "not applicable"
+            ],
+            "6": [
+                "The patient note does not mention any details about the female participants' reproductive status. This criterion is not applicable to the patient as it is a male.",
+                [],
+                "not applicable"
+            ]
+        },
+        "inclusion_criteria": [
+            "1. A Telephone Interview for Cognitive Status - modified (TICS-M) score reflective of intact cognitive functioning.",
+            "2. Has a phosphorylated tau (P-tau) result consistent with the presence of amyloid and early-tau pathology.",
+            "3. Has a reliable study partner and backup study partner familiar with overall function and behavior, such as day-to-day activities and cognitive abilities.",
+            "4. Have adequate literacy, vision, and hearing for neuropsychological testing at screening.",
+            "5. Contraceptive use by men or women should be consistent with local regulations regarding the methods of contraception for those participating in clinical studies",
+            "6. Female participants include those who are infertile due to surgical sterilization (hysterectomy, bilateral oophorectomy, or tubal ligation), congenital anomaly such as Mullerian agenesis; or post menopausal (women 55 or older not on hormone therapy and had at least 12 months of spontaneous amenorrhea; or with a diagnosis of menopause prior to starting hormone replacement therapy."
+        ],
+        "exclusion": {
+            "1": [
+                "The patient has severe cognitive deficits and memory dysfunction, which indicates significant other neurodegenerative disease affecting cognition, thus meeting the exclusion criterion.",
+                [
+                    2
+                ],
+                "excluded"
+            ],
+            "2": [
+                "The patient's condition does not mention any serious or unstable illnesses that could interfere with the study or have a life expectancy of \u22645 years.",
+                [],
+                "not enough information"
+            ],
+            "3": [
+                "No history of cancer is mentioned in the note.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "No history of clinically significant multiple or severe drug allergies is mentioned in the note.",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "No clinically important abnormalities on MRI or laboratory tests are mentioned in the note.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "No contraindications for MRI are mentioned in the note.",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "No MRI demonstrating presence of amyloid-related imaging abnormalities (ARIA-E), cerebral microhemorrhages, superficial siderosis, macrohemorrhage, or severe white matter disease is mentioned in the note.",
+                [],
+                "not enough information"
+            ],
+            "8": [
+                "No prior treatment with passive anti-amyloid immunotherapy is mentioned in the note.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "No previous active immunization against amyloid beta (A\u03b2) in any other study is mentioned in the note.",
+                [],
+                "not excluded"
+            ],
+            "10": [
+                "This criterion is a duplicate of criterion 9.",
+                [],
+                "not applicable"
             ],
             "11": [
-                "Same as the main study except contraindications for florbetapir F 18 PET are exclusionary. The patient note does not mention any contraindications for florbetapir F 18 PET.",
+                "No current or previous use of prescription medications for mild cognitive impairment (MCI) or AD is mentioned.",
                 [],
                 "not excluded"
-            ]
-        }
-    },
-    "NCT06653153": {
-        "inclusion": {
-            "0": [
-                "The criterion requires a phosphorylated tau (P-tau) result consistent with the presence of amyloid pathology. The patient note does not mention any P-tau results.",
-                [],
-                "not enough information"
             ],
-            "1": [
-                "The criterion requires a reliable study partner and backup study partner familiar with overall function and behavior. The patient note does not mention any study partners.",
+            "12": [
+                "Same as main study criteria, no contraindications for florbetapir F 18 PET are mentioned.",
                 [],
-                "not enough information"
-            ],
-            "2": [
-                "The criterion requires adequate literacy, vision, and hearing for neuropsychological testing at screening. The patient note does not mention any specific details about literacy, vision, or hearing.",
-                [],
-                "not enough information"
-            ],
-            "3": [
-                "The criterion requires an MMSE score consistent with no to minimal cognitive impairment. The patient has an MMSE score of 21. An MMSE score of 21 is consistent with moderate cognitive impairment, not no to minimal impairment.",
-                [
-                    6
-                ],
-                "not included"
-            ],
-            "4": [
-                "The criterion requires a FAQ score consistent with no to minimal functional impairment. The patient note does not mention any FAQ scores.",
-                [],
-                "not enough information"
-            ],
-            "5": [
-                "The criterion requires that if currently receiving medications as symptomatic treatment for AD, the dose has been stable for at least 30 days before screening. The patient note does not mention any medications for AD.",
-                [],
-                "not enough information"
+                "not excluded"
             ]
         },
-        "exclusion": {
-            "0": [
-                "The patient has progressive memory loss and jerking movements, which could indicate dementia. However, the diagnosis of Alzheimer's Disease is not explicitly stated. The note does not mention other neurological diseases or serious/unstable illnesses that could interfere with the study.",
-                [
-                    1,
-                    2
-                ],
-                "not enough information"
-            ],
-            "1": [
-                "The patient's diagnosis and symptoms do not explicitly indicate a history of cancer with a high risk of recurrence.",
-                [],
-                "not excluded"
-            ],
-            "2": [
-                "The patient has no mention of clinically significant multiple or severe drug allergies or hypersensitivity reactions.",
-                [],
-                "not excluded"
-            ],
-            "3": [
-                "No clinically important laboratory test results or other abnormalities are mentioned that could be detrimental to the participant or compromise the study.",
-                [],
-                "not excluded"
-            ],
-            "4": [
-                "No contraindications for MRI are mentioned.",
-                [],
-                "not excluded"
-            ],
-            "5": [
-                "No mention of a centrally read MRI that does not meet study entry criteria.",
-                [],
-                "not excluded"
-            ],
-            "6": [
-                "The patient has not had prior treatment with passive anti-amyloid immunotherapy or active immunization against A\u03b2.",
-                [],
-                "not excluded"
-            ]
-        }
+        "exclusion_criteria": [
+            "1. Mild cognitive impairment or dementia, or significant other neurodegenerative disease that can affect cognition.",
+            "2. Current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic, psychiatric, immunologic, or hematologic disease that could interfere with the analysis of the study or a life expectancy of approximately \u22645 years.",
+            "3. History of cancer with high risk of recurrence and preventing completion of the trial.",
+            "4. History of clinically significant multiple or severe drug allergies, or severe posttreatment hypersensitivity reactions (including but not limited to erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, and/or exfoliative dermatitis).",
+            "5. Have any clinically important abnormality at screening on magnetic resonance imaging (MRI) or clinical laboratory test results that could be detrimental to the participant or study integrity.",
+            "6. Have any contraindications for MRI, including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.",
+            "7. Have a centrally read MRI demonstrating presence of amyloid-related imaging abnormalities (ARIA-E), \\>4 cerebral microhemorrhages, more than 1 area of superficial siderosis, any macrohemorrhage or severe white matter disease at screening.",
+            "8. Have had prior treatment with a passive anti-amyloid immunotherapy \\<5 half-lives prior to randomization.",
+            "9. Have received active immunization against amyloid beta (A\u03b2) in any other study.",
+            "10. Have received active immunization against A\u03b2 in any other study.",
+            "11. Current or previous use of prescription medications used as treatment for mild cognitive impairment (MCI) or AD.",
+            "12. Same as the main study except contraindications for florbetapir F 18 PET are exclusionary."
+        ]
     },
-    "NCT06566170": {
-        "inclusion": {
-            "0": [
-                "The patient is a 62-year-old man with progressive memory loss and cognitive deficits, which fits the description of early symptomatic Alzheimer's Disease (AD). However, the note does not specify if the patient is under care for mild cognitive impairment (MCI) or mild dementia stage of AD.",
-                [
-                    1,
-                    2
-                ],
-                "not enough information"
-            ],
-            "1": [
-                "The patient has a MMSE score of 21, which is above the required TICS score of \u226521.",
-                [
-                    6
-                ],
-                "included"
-            ],
-            "2": [
-                "The patient note does not mention any amyloid beta (A\u03b2) pathology supported by biomarker results such as P-tau, amyloid PET, or CSF.",
-                [],
-                "not included"
-            ],
-            "3": [
-                "The patient note does not mention the presence of a reliable study partner who is in frequent contact with the participant and available by telephone.",
-                [],
-                "not included"
-            ],
-            "4": [
-                "The patient note does not mention if the patient has EHR data available for linkage or if the patient is willing to allow access to EHR data for the duration of the study.",
-                [],
-                "not enough information"
-            ]
-        },
-        "exclusion": {
-            "0": [
-                "The criterion is applicable because the patient has a neurologic condition, but there is no mention of prior stroke or inability to perform basic activities of daily living (ADLs).",
-                [],
-                "not enough information"
-            ],
-            "1": [
-                "The criterion is applicable because the patient has a serious neurological condition, but there is no mention of current or recent serious or unstable illness (other than AD) that could interfere with study completion.",
-                [],
-                "not enough information"
-            ],
-            "2": [
-                "The criterion is not applicable because the patient is not mentioned to be enrolled or intending to enroll in another clinical trial.",
-                [],
-                "not applicable"
-            ],
-            "3": [
-                "The criterion is applicable because the patient has a neurological condition, but there is no mention of contraindications to donanemab, MRI, or amyloid PET tracers.",
-                [],
-                "not enough information"
-            ]
-        }
-    },
-    "NCT06538116": {
-        "inclusion": {
-            "0": [
-                "The patient has progressive memory loss, which fits the description of gradual and progressive decline in memory function. However, the note does not specify the duration of the decline. It is possible that the decline has been going on for more than 6 months, but it is not explicitly stated.",
-                [
-                    7
-                ],
-                "not enough information"
-            ],
-            "1": [
-                "The patient's MMSE score is 21, which falls within the range of 13 to 24.",
-                [],
-                "included"
-            ],
-            "2": [
-                "The note does not mention plasma P-tau levels or historical evidence of AD pathology.",
-                [],
-                "not enough information"
-            ],
-            "3": [
-                "The note does not mention the presence of a reliable study partner who will provide written informed consent and be available for participation.",
-                [],
-                "not enough information"
-            ],
-            "4": [
-                "The note does not provide information regarding the patient's gender or reproductive status.",
-                [],
-                "not enough information"
-            ]
-        },
-        "exclusion": {
-            "0": [
-                "The criterion is not applicable because the patient note does not mention any individuals of childbearing potential.",
-                [],
-                "not applicable"
-            ],
-            "1": [
-                "The patient note does not mention any other significant central nervous system or psychiatric diseases apart from the diagnosis of Alzheimer's disease. There is no direct evidence of other conditions affecting cognition or the ability to complete the study.",
-                [],
-                "not excluded"
-            ],
-            "2": [
-                "The patient note does not mention any cardiovascular-related risk factors or history such as uncontrolled hypertension, heart failure, stroke, or liver-related abnormalities.",
-                [],
-                "not excluded"
-            ],
-            "3": [
-                "The patient note does not mention the use of moderate or strong CYP3A4 inhibitors or inducers.",
-                [],
-                "not excluded"
-            ],
-            "4": [
-                "The patient note does not mention participation in any other clinical trial within the last 30 days.",
-                [],
-                "not excluded"
-            ],
-            "5": [
-                "The patient note does not mention any judgment by the investigator regarding the patient being actively suicidal.",
-                [],
-                "not excluded"
-            ]
-        }
-    },
-    "NCT06657768": {
+    "NCT05508789": {
         "inclusion": {
             "1": [
-                "The patient is a 62-year-old man with progressive memory loss and cognitive deficits, which fits the symptomatic profile of early Alzheimer's Disease (AD). However, the note does not explicitly state a diagnosis of Alzheimer's Disease, only symptoms and findings that could be consistent with it. The patient note does not contain sufficient information to confirm the diagnosis, but the symptoms are suggestive. It is possible that a good patient note could miss such a diagnosis if it was not confirmed by a specialist, but this is less likely. Therefore, there is not enough information to definitively classify the patient's eligibility.",
+                "The patient reports progressive memory loss, which is gradual and progressive for at least 6 months, but the exact duration is not specified. It is possible that the patient's memory loss has been gradual and progressive for more than 6 months, but the note does not provide explicit evidence of this duration. Therefore, it is not possible to definitively determine if the criterion is met without additional information.",
                 [],
                 "not enough information"
             ],
             "2": [
-                "The patient is over 55 years old, which meets the age requirement for early Alzheimer's Disease participants. The patient's age is explicitly mentioned in Sentence 1.",
-                [
-                    1
-                ],
-                "included"
+                "The patient's MMSE score range is not provided in the note. The MMSE score of 20 to 28 (inclusive) is required for eligibility, but there is no direct evidence of the MMSE score in the patient note.",
+                [],
+                "not enough information"
             ],
             "3": [
-                "The patient shows progressive memory loss, cognitive deficits, and EEG findings that are suggestive of Alzheimer's Disease, but there is no explicit confirmation of a diagnosis of Alzheimer's Disease. The patient's symptoms meet the symptomatic criteria, but without a confirmed diagnosis, there is not enough information.",
+                "There is no mention of flortaucipir F18 scan results in the patient note.",
                 [],
                 "not enough information"
             ],
             "4": [
-                "The patient's MMSE score is 21, which is below the typical threshold of 26 for early Alzheimer's Disease, but the note does not specify the exact MMSE criteria used in the study. Without this information, it is not possible to determine if this criterion is met.",
+                "There is no mention of florbetapir F18 scan results in the patient note.",
                 [],
                 "not enough information"
             ],
             "5": [
-                "The patient is expected to provide informed consent and comply with the trial protocol without any practical issues, as stated in Sentence 7.",
-                [
-                    7
-                ],
-                "included"
-            ],
-            "6": [
-                "The patient note does not provide information about the patient's general health status or other medical conditions that might exclude them from the study. It is not applicable to assume any exclusion based on this criterion without more information.",
+                "The patient note does not mention a study partner or any information about a study partner's availability or consent.",
                 [],
-                "not applicable"
-            ]
-        },
-        "exclusion": {
-            "1": [
-                "The criterion is not applicable as the patient has progressive memory loss and jerking movements, indicating a neurological condition rather than being healthy. The patient note does not mention any healthy status.",
-                [],
-                "not applicable"
-            ],
-            "2": [
-                "The criterion is not applicable as the patient has severe cognitive deficits and memory dysfunction, which are symptoms of Alzheimer's Disease, not early symptomatic Alzheimer's Disease.",
-                [],
-                "not applicable"
-            ],
-            "3": [
-                "The patient has progressive memory loss and jerking movements, severe cognitive deficits, and memory dysfunction, which are indicative of Alzheimer's Disease rather than early symptomatic Alzheimer's Disease. The patient does not meet the inclusion criteria for early symptomatic AD.",
-                [],
-                "not applicable"
-            ],
-            "4": [
-                "The patient has moderately advanced cerebral atrophy and diffuse vacuolar changes of the gray matter, which are indicative of Alzheimer's Disease rather than early symptomatic Alzheimer's Disease. The patient does not meet the inclusion criteria for early symptomatic AD.",
-                [],
-                "not applicable"
-            ],
-            "5": [
-                "The patient has a MMSE score of 21, which is indicative of moderate cognitive impairment. The patient note does not provide information on whether the patient has early symptomatic Alzheimer's Disease.",
-                [
-                    "6"
-                ],
                 "not enough information"
             ],
             "6": [
-                "The patient has progressive memory loss and jerking movements, which are not typical symptoms of healthy participants. The patient note does not provide information on whether the patient is healthy.",
+                "The patient note does not mention a second study partner or any information about a second study partner.",
                 [],
-                "not applicable"
+                "not enough information"
+            ],
+            "7": [
+                "The patient note does not mention any information about a second study partner being primarily responsible for the CDR and the ADCS-ADL assessments.",
+                [],
+                "not enough information"
+            ],
+            "8": [
+                "The patient note does not mention any information about the availability of a study partner by telephone for AEs and concomitant medications.",
+                [],
+                "not enough information"
+            ],
+            "9": [
+                "The patient note does not mention any information about stable concomitant symptomatic AD medications or other medications that may impact cognition for at least 30 days prior to randomization.",
+                [],
+                "not enough information"
             ]
-        }
+        },
+        "inclusion_criteria": [
+            "1. Gradual and progressive change in memory function reported by the participant or informant for \u22656 months",
+            "2. A MMSE score of 20 to 28 (inclusive) at Day 601 or 1.",
+            "3. Meet flortaucipir F18 scan (central read) criteria",
+            "4. Meet florbetapir F18 scan (central read) criteria",
+            "5. Have a study partner who will provide written informed consent to participate, is in frequent contact with the participant (defined as at least 10 hours per week), and will accompany the participant to the study or be available by telephone at designated times.",
+            "6. A second study partner may serve as backup. The study partner(s) is/are required to accompany the participant for signing consent. The study partner must be present on all days the cognitive and functional scales are administered.",
+            "7. If a participant has a second study partner, it is preferred that 1 study partner be primarily responsible for the CDR and the ADCS-ADL assessments.",
+            "8. Days requiring the following assessments and scales must have a study partner available by telephone if not accompanying participant for the following assessments",
+            "9. AEs and concomitant medications",
+            "10. Stable concomitant symptomatic AD medications and other medications that may impact cognition for at least approximately 30 days prior to randomization."
+        ],
+        "exclusion": {
+            "1": [
+                "The patient has progressive memory loss and jerking movements, but no mention of other significant neurological diseases affecting the central nervous system other than AD. The note does not provide direct evidence of other neurological diseases, but the absence of such information does not necessarily mean they do not exist. Therefore, there is not enough information.",
+                [],
+                "not enough information"
+            ],
+            "2": [
+                "The patient's note does not mention any current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, psychiatric, immunologic, or hematologic diseases. There is no direct evidence, but the absence of such information implies these conditions are not present. The note also does not mention a life expectancy of less than 24 months.",
+                [],
+                "not excluded"
+            ],
+            "3": [
+                "The patient's note does not mention any history of cancer within the last 5 years, except for non-metastatic basal and/or squamous cell carcinoma of the skin, in situ cervical cancer, nonprogressive prostate cancer, or other cancers with low risk of recurrence or spread. There is no direct evidence, but the absence of such information implies these conditions are not present.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient's note does not mention any contraindication to MRI or PET scans.",
+                [],
+                "not excluded"
+            ]
+        },
+        "exclusion_criteria": [
+            "1. Has significant neurological disease affect the central nervous system other than AD, that may affect cognition or ability to complete the study, including but not limited to, other dementias, serious infection of the brain, Parkinson's disease, multiple concussions, or epilepsy or recurrent seizures (except febrile childhood seizures).",
+            "2. Has current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterologic, respiratory, endocrinologic, neurologic (other than AD), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses in this study; or has a life expectancy of \\<24 months.",
+            "3. History of cancer within the last 5 years, except of non-metastatic basal and/or squamous cell carcinoma of the skin, in situ cervical cancer, nonprogressive prostate cancer, or other cancers with low risk of recurrence or spread.",
+            "4. Contraindication to MRI or PET scans"
+        ]
     },
     "NCT06809400": {
         "inclusion": {
-            "0": [
-                "The patient note does not provide information on the patient's body mass index (BMI). It is not possible to determine if the patient's BMI falls within the range of 18 to 34 kg/m\u00b2.",
-                [],
-                "not enough information"
-            ],
             "1": [
-                "The patient note does not provide information on the patient's body mass index (BMI). Venous access is not mentioned either.",
-                [],
-                "not enough information"
+                "The patient is a 62-year-old man, which falls within the typical age range for Parkinson's Disease. There is no direct evidence of BMI, but no exclusion based on age. Relevant sentence IDs: [1], Eligibility label: included"
             ],
             "2": [
-                "The patient note does not provide information on the patient's health status. The patient has progressive memory loss and jerking movements, which indicates an existing neurological condition.",
-                [],
-                "not included"
+                "The patient's BMI is not mentioned in the note. It is impossible to determine if the patient's BMI is within the specified range without this information. Relevant sentence IDs: [], Eligibility label: not enough information"
             ],
             "3": [
-                "The patient note does not provide information on the patient's ethnic background or whether all four of the patient's biological grandparents are of exclusive Chinese descent and born in China.",
-                [],
-                "not enough information"
+                "Not applicable as the patient is not Japanese. Relevant sentence IDs: [], Eligibility label: not applicable"
             ],
             "4": [
-                "The patient note indicates that the patient has progressive memory loss and jerking movements, which are not symptoms of Parkinson's disease.",
-                [],
-                "not included"
+                "The patient has venous access as implied by the ability to provide informed consent and comply with the protocol, which includes blood sampling. Relevant sentence IDs: [6], Eligibility label: included"
             ],
             "5": [
-                "The patient note does not provide information on the patient's Montreal Cognitive Assessment (MoCA) score. Additionally, the patient does not have a diagnosis of Parkinson's disease.",
-                [],
-                "not included"
+                "Not applicable as the patient is not Chinese. Relevant sentence IDs: [], Eligibility label: not applicable"
+            ],
+            "6": [
+                "The patient shows symptoms consistent with Parkinson's Disease: progressive memory loss, cognitive deficits, memory dysfunction, and jerking movements. Relevant sentence IDs: [1, 2], Eligibility label: included"
+            ],
+            "7": [
+                "The patient's treatment status is not mentioned, but there is no indication that the disease is expected to require changes in treatment within 52 weeks. Relevant sentence IDs: [], Eligibility label: included"
+            ],
+            "8": [
+                "The patient's treatment status is not mentioned, but there is no indication that the patient is currently on dopaminergic therapy. Relevant sentence IDs: [], Eligibility label: not applicable"
+            ],
+            "9": [
+                "The patient's cognitive assessment score is not mentioned in the note. It is impossible to determine if the patient's MoCA score is within the specified range without this information. Relevant sentence IDs: [], Eligibility label: not enough information"
             ]
         },
+        "inclusion_criteria": [
+            "1. Part A Single Ascending Dose (SAD) and B Multiple Ascending Dose (MAD)",
+            "2. Have a body mass index within the range of 18 to 34 kilogram/square meter (kg/m\u00b2) (inclusive).",
+            "3. For Japanese participants: To qualify as a participant of first-generation Japanese origin, the participant, the participant's biological parents, and all of the participant's biological grandparents must be of exclusive Japanese descent and born in Japan.",
+            "4. Have venous access sufficient to allow for blood sampling or administration of study intervention for IV administration, or both.",
+            "5. For Chinese participants: To qualify as Chinese for this study, all 4 of the participant's biological grandparents must be exclusive Chinese descent and born in China.",
+            "6. Diagnosis of Parkinson's disease per United Kingdom (UK) Parkinson's Disease Society Brain Bank Clinical Diagnostic Criteria.",
+            "7. If presently untreated for Parkinson's disease, clinical status is not expected to require changes in symptomatic treatment within 52 weeks from baseline.",
+            "8. If presently being treated for Parkinson's disease, receiving a stable dose of symptomatic dopaminergic therapy, including monoamine oxidase-B inhibitor, levodopa/carbidopa or dopamine agonist for at least 90 days prior to baseline and not expected to change within 52 weeks.",
+            "9. Have a Montreal Cognitive Assessment (MoCA) score of greater than or equal to (\u2265) 26."
+        ],
         "exclusion": {
-            "0": [
-                "The patient has progressive memory loss and jerking movements, indicating a neurological disease affecting the CNS. This is not Parkinson's disease, which is an exception in Part B cohorts. Therefore, the patient meets the exclusion criterion.",
+            "1": [
+                "The criterion specifies significant neurological disease other than Parkinson's disease. The patient note describes progressive memory loss, jerking movements, cognitive deficits, and cerebral atrophy, indicating significant neurological disease. Therefore, the patient meets the criterion. Relevant information is present in the note.",
                 [
                     1,
                     2,
@@ -553,286 +566,487 @@
                 ],
                 "excluded"
             ],
-            "1": [
-                "The patient has severe cognitive deficits and memory dysfunction, and neuroimaging shows moderately advanced cerebral atrophy. These conditions are serious and unstable, potentially affecting the ability to complete the study and increasing risk. Therefore, the patient meets the exclusion criterion.",
-                [
-                    2,
-                    4
-                ],
-                "excluded"
-            ],
             "2": [
-                "No information is provided about allergies to LY4006896, related compounds, or components of the formulation, or history of allergic reactions to any transferrin receptor antibodies. It is unlikely that a good patient note would miss such information, so it is reasonable to assume this criterion is not true for the patient.",
+                "The criterion involves the presence of serious or unstable illnesses that could interfere with the study or reduce life expectancy to less than 24 months. The note does not mention any serious or unstable illnesses or conditions, but it does describe significant neurological disease. Given the severity of the patient's condition, it is likely that such conditions could be inferred if present. However, there is no direct evidence.",
                 [],
-                "not excluded"
+                "not enough information"
             ],
             "3": [
-                "No information is provided about significant allergies to humanize monoclonal antibodies or clinically significant multiple or severe drug allergies. It is unlikely that a good patient note would miss such information, so it is reasonable to assume this criterion is not true for the patient.",
+                "The criterion involves known allergies to LY4006896 or related compounds. The note does not mention any allergies to LY4006896 or related compounds. Given the specificity of the criterion, it is unlikely that such information would be missed if present.",
                 [],
                 "not excluded"
             ],
             "4": [
-                "No information is provided about history or presence of uncontrolled asthma, significant autoimmune disease, hereditary angioedema, or known history of common variable immune deficiency. It is unlikely that a good patient note would miss such information, so it is reasonable to assume this criterion is not true for the patient.",
+                "The criterion involves significant allergies to humanize monoclonal antibodies. The note does not mention any allergies to humanize monoclonal antibodies. Given the specificity of the criterion, it is unlikely that such information would be missed if present.",
                 [],
                 "not excluded"
             ],
             "5": [
-                "No information is provided about anemia. It is unlikely that a good patient note would miss such information, so it is reasonable to assume this criterion is not true for the patient.",
+                "The criterion involves clinically significant multiple or severe drug allergies or severe posttreatment hypersensitivity reactions. The note does not mention any such allergies. Given the specificity of the criterion, it is unlikely that such information would be missed if present.",
                 [],
                 "not excluded"
             ],
             "6": [
-                "No information is provided about abnormal blood pressure or pulse rate, or a preexisting history of hypertension. It is unlikely that a good patient note would miss such information, so it is reasonable to assume this criterion is not true for the patient.",
+                "The criterion involves history or presence of uncontrolled asthma, significant autoimmune disease, hereditary angioedema, or common variable immune deficiency. The note does not mention any of these conditions. Given the specificity of the criterion, it is unlikely that such information would be missed if present.",
                 [],
                 "not excluded"
             ],
             "7": [
-                "No information is provided about abnormal blood pressure or pulse rate, or uncontrolled hypertension. It is unlikely that a good patient note would miss such information, so it is reasonable to assume this criterion is not true for the patient.",
-                [],
-                "not excluded"
-            ]
-        }
-    },
-    "NCT06220669": {
-        "inclusion": {
-            "0": [
-                "The patient note does not mention any diagnosis or evidence of multiple sclerosis, nor does it mention relapsing-remitting multiple sclerosis. Therefore, the criterion is not applicable.",
-                [],
-                "not applicable"
-            ],
-            "1": [
-                "The patient note does not mention any documented relapses or active GdE brain lesions on an MRI scan. Additionally, there is no evidence of relapsing-remitting multiple sclerosis, which is a requirement for this criterion. It is impossible for a good patient note to miss such important information if it were present.",
-                [],
-                "not applicable"
-            ],
-            "2": [
-                "The patient note does not mention any documented relapses or active GdE brain lesions on an MRI scan. Additionally, there is no evidence of relapsing-remitting multiple sclerosis, which is a requirement for this criterion. It is impossible for a good patient note to miss such important information if it were present.",
-                [],
-                "not applicable"
-            ],
-            "3": [
-                "The patient note does not provide an Expanded Disability Status Scale (EDSS) score. Without this information, it is impossible to determine if the patient meets the EDSS criterion.",
-                [],
-                "not enough information"
-            ]
-        },
-        "exclusion": {
-            "0": [
-                "The patient note does not mention any diagnosis of primary progressive multiple sclerosis (MS) or nonactive secondary progressive MS, nor does it mention neuromyelitis optica spectrum disorder or a history of clinically significant central nervous system (CNS) disease.",
-                [],
-                "not applicable"
-            ],
-            "1": [
-                "The patient note does not provide any evidence of a recent relapse with systemic corticosteroid administration within 30 days prior to randomization.",
-                [],
-                "not applicable"
-            ],
-            "2": [
-                "The patient note does not mention any active GdE brain lesions or provide details about the MRI scan.",
-                [],
-                "not enough information"
-            ],
-            "3": [
-                "The patient note does not mention any medications or treatments that the patient has received.",
-                [],
-                "not enough information"
-            ],
-            "4": [
-                "The patient note does not mention any current or recent acute, active infection.",
-                [],
-                "not applicable"
-            ],
-            "5": [
-                "The patient note does not mention any current serious or unstable illnesses.",
-                [],
-                "not applicable"
-            ],
-            "6": [
-                "The patient note does not mention any other clinically important abnormality at screening or baseline.",
-                [],
-                "not enough information"
-            ]
-        }
-    },
-    "NCT06553872": {
-        "inclusion": {
-            "0": [
-                "The patient note does not mention a diagnosis of mantle cell lymphoma (MCL). Therefore, the criterion is not applicable.",
-                [],
-                "not applicable"
-            ],
-            "1": [
-                "The patient is 62 years old, which meets the age requirement of 18 years or older.",
-                [],
-                "included"
-            ],
-            "2": [
-                "The note does not provide information on whether the patient can comprehend and sign written informed consent. However, it does mention the patient will comply with the trial protocol, which implies a level of understanding.",
-                [],
-                "included"
-            ],
-            "3": [
-                "The patient note does not provide information on eligibility for CAR T-cell therapy.",
-                [],
-                "not enough information"
-            ],
-            "4": [
-                "The patient note does not provide information on ECOG performance status.",
-                [],
-                "not enough information"
-            ],
-            "5": [
-                "The patient note does not provide information on the washout periods prior to leukapheresis or prior treatment-related AEs.",
-                [],
-                "not enough information"
-            ],
-            "6": [
-                "The patient note does not provide information on contraception or pregnancy status.",
-                [],
-                "not enough information"
-            ],
-            "7": [
-                "The patient note does not provide information on laboratory parameters.",
-                [],
-                "not enough information"
-            ]
-        },
-        "exclusion": {
-            "0": [
-                "The patient has not received pirtobrutinib for more than 2 months. The patient note does not mention any prior treatment with pirtobrutinib.",
-                [],
-                "not excluded"
-            ],
-            "1": [
-                "The patient has not received any investigational study agent within 4 weeks prior to screening visit. The patient note does not mention any recent investigational study agent.",
-                [],
-                "not excluded"
-            ],
-            "2": [
-                "The patient has not received CAR T-cell therapy before. The patient note does not mention any prior treatment with CAR T-cell therapy.",
-                [],
-                "not excluded"
-            ],
-            "3": [
-                "There is no mention of clinically significant or uncontrolled cardiac disease in the patient note.",
-                [],
-                "not excluded"
-            ],
-            "4": [
-                "There is no mention of uncontrolled or symptomatic arrhythmias in the patient note.",
-                [],
-                "not excluded"
-            ],
-            "5": [
-                "There is no mention of active uncontrolled/untreated infection in the patient note.",
-                [],
-                "not excluded"
-            ],
-            "6": [
-                "There is no mention of active immunologic or inflammatory/autoimmune disease affecting the CNS in the patient note.",
-                [],
-                "not excluded"
-            ],
-            "7": [
-                "The patient does not have active CNS involvement of Mantle Cell Lymphoma. The patient note does not mention any CNS involvement.",
+                "The criterion involves evidence of clinically significant anemia. The note does not mention any anemia. Given the specificity of the criterion, it is unlikely that such information would be missed if present.",
                 [],
                 "not excluded"
             ],
             "8": [
-                "There is no mention of known positive Human immunodeficiency virus (HIV) status in the patient note.",
+                "The criterion involves abnormal blood pressure or pulse rate, or both, or preexisting hypertension. The note does not mention any abnormalities in blood pressure or pulse rate. Given the specificity of the criterion, it is unlikely that such information would be missed if present.",
                 [],
                 "not excluded"
             ],
             "9": [
-                "There is no mention of Hepatitis B virus (HBV) status in the patient note.",
+                "The criterion involves uncontrolled hypertension with systolic blood pressure >150 mm Hg or diastolic blood pressure >95 mm Hg. The note does not mention any blood pressure readings. Given the specificity of the criterion, it is unlikely that such information would be missed if present.",
+                [],
+                "not excluded"
+            ]
+        },
+        "exclusion_criteria": [
+            "1. Have significant neurological disease affecting the central nervous system (CNS) (other than Parkinson's disease in Part B cohorts) that may affect the participant's ability to complete the study.",
+            "2. Have a history or presence of serious or unstable illnesses or conditions that, in the investigator's opinion, could interfere with the analyses in this study, or increase risk for study intervention administration, or result in a participant's life expectancy of less than 24 months.",
+            "3. Have known allergies to LY4006896, related compounds, or any components of the formulation, or history of allergic reactions to any transferrin receptor antibodies.",
+            "4. Have significant allergies to humanize monoclonal antibodies.",
+            "5. Have clinically significant multiple or severe drug allergies (including, but not limited to, erythema multiforme major, linear immunoglobulin A dermatosis, toxic epidermal necrolysis, or exfoliative dermatitis); or intolerance to topical corticosteroids, or severe posttreatment hypersensitivity reactions.",
+            "6. Have history or presence of uncontrolled asthma, significant autoimmune disease, hereditary angioedema, or known history of common variable immune deficiency.",
+            "7. Evidence of clinically significant anemia.",
+            "8. Have an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or a preexisting history of hypertension.",
+            "9. Have an abnormal blood pressure or pulse rate, or both, as determined by the investigator, or have uncontrolled hypertension, defined as a systolic blood pressure \\>150 mm Hg or a diastolic blood pressure \\>95 mm Hg at Screening or Treatment Visits."
+        ]
+    },
+    "NCT06538116": {
+        "inclusion": {
+            "1": [
+                "The patient does not have a clear mention of a gradual and progressive decline in memory function for greater than or equal to 6 months. The note mentions progressive memory loss but does not specify the duration of progression. It is possible that a good patient note could miss such specific duration information.",
+                [],
+                "not enough information"
+            ],
+            "2": [
+                "The patient note does not mention an MMSE score. It is possible that a good patient note could miss such specific information.",
+                [],
+                "not enough information"
+            ],
+            "3": [
+                "The patient note does not mention plasma P-tau levels or historical evidence of AD pathology. It is possible that a good patient note could miss such specific information.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "The patient note mentions that the patient will comply with the trial protocol and does not mention the absence of a reliable study partner. It is unlikely that a good patient note would miss the presence of a reliable study partner.",
+                [
+                    "6"
+                ],
+                "included"
+            ],
+            "5": [
+                "The patient note does not provide information about whether the patient is male and has a partner of childbearing potential, nor does it mention any contraception guidance. It is possible that a good patient note could miss such specific information.",
+                [],
+                "not enough information"
+            ]
+        },
+        "inclusion_criteria": [
+            "1. Have gradual and progressive decline in memory function for greater than or equal to 6 months that is severe enough to interfere with activities of daily living.",
+            "2. Have MMSE score of 13 to 24.",
+            "3. Have eligibile plasma P-tau or historical evidence of AD pathology.",
+            "4. Have a reliable study partner who will provide written informed consent to participate, is in frequent contact with the participant and will be available at designated times.",
+            "5. Males with partners of childbearing potential must agree to abide with provided contraception guidance."
+        ],
+        "exclusion": {
+            "1": [
+                "The criterion is not applicable as the patient is male and the study is for individuals of childbearing potential, which typically refers to females. The patient note does not mention any female-specific conditions or reproductive status.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The patient has no mention of other significant central nervous system or psychiatric diseases apart from the diagnosis of Alzheimer's Disease. The note does not indicate any head trauma, stroke, seizure disorder, etc.",
+                [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "not excluded"
+            ],
+            "3": [
+                "The patient note does not mention any cardiovascular-related risk factors or history such as uncontrolled hypertension, heart failure, stroke, or liver-related abnormalities.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "There is no mention of the use of CYP3A4 inhibitors or inducers in the patient note.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "The patient note does not mention any participation in a clinical trial involving an investigational product within the last 30 days.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "There is no mention of suicidal tendencies or risk in the patient note.",
+                [],
+                "not excluded"
+            ]
+        },
+        "exclusion_criteria": [
+            "1. Are individuals of childbearing potential.",
+            "2. Have significant central nervous system or psychiatric disease, other than AD, that in the investigator's opinion may affect cognition or the ability to complete the study (e.g: head trauma, stroke, seizure disorder etc.,).",
+            "3. Have cardiovascular-related risk factors or history that include uncontrolled hypertension, heart failure, stroke; or liver-related abnormalities.",
+            "4. Use of moderate or strong CYP3A4 inhibitors or inducers.",
+            "5. Have participated within the last 30 days in a clinical trial involving an investigational product.",
+            "6. Participant is, in the judgment of the investigator, actively suicidal and therefore deemed to be at significant risk for suicide."
+        ]
+    },
+    "NCT06297590": {
+        "inclusion": {
+            "1": [
+                "The patient's age is not mentioned in the BMI range, but the patient is 62 years old, which is within the typical age range for Alzheimer's Disease. There is no direct evidence of BMI, but it is not implausible for a good patient note to miss such information. Therefore, we cannot determine BMI.",
+                [],
+                "not enough information"
+            ],
+            "2": [
+                "The patient has progressive memory loss, which indicates a gradual and progressive change in memory function. The duration of symptoms is not explicitly stated, but the description of 'progressive memory loss' implies a duration of at least several months.",
+                [],
+                "included"
+            ],
+            "3": [
+                "There is no mention of the MMSE score in the patient note. It is not implausible for a good patient note to miss such a specific detail.",
+                [],
+                "not enough information"
+            ],
+            "4": [
+                "There is no mention of the CDR global score or the memory box score in the patient note. It is not implausible for a good patient note to miss such specific details.",
+                [],
+                "not enough information"
+            ],
+            "5": [
+                "There is no mention of flortaucipir F18 PET scan results in the patient note. It is not implausible for a good patient note to miss such a specific detail.",
+                [],
+                "not enough information"
+            ],
+            "6": [
+                "The patient's gender is male, but there is no information about contraceptive requirements. There is no information about women's childbearing potential. It is not implausible for a good patient note to miss such specific details.",
+                [],
+                "not enough information"
+            ],
+            "7": [
+                "There is no mention of the number of study partners or the time spent with them in the patient note. It is not implausible for a good patient note to miss such specific details.",
+                [],
+                "not enough information"
+            ]
+        },
+        "inclusion_criteria": [
+            "1. Have a body mass index (BMI) within the range 18 (17 for Japan participants) to 40 kilograms per square meter (kg/m\u00b2), inclusive, at screening.",
+            "2. Have gradual and progressive change in memory function for greater than or equal to (\u2265) 6 months as reported by the participant or informant.",
+            "3. Have a mini mental state examination (MMSE) score of 18 to 30 at screening.",
+            "4. Have a clinical dementia rating (CDR) global score of 0.5 to 1.0, with a memory box score \u2265 0.5 at screening.",
+            "5. Meet flortaucipir F18 positron emission tomography (PET) criteria, as defined in the TAUVID\u2122 FDA label (TAUVID\u2122 prescribing information, 2024), demonstrating evidence of tau pathology.",
+            "6. Males who agree to follow contraceptive requirements, or women not of childbearing potential (WNOCBP).",
+            "7. Participants must have up to 2 study partners who are with contact with the participant at least 10 hours per week and one of whom can attend study appointments."
+        ],
+        "exclusion": {
+            "1": [
+                "The patient does not have any mentioned serious or unstable illnesses other than Alzheimer's Disease, which is included in the study. Therefore, the criterion is not applicable.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "There is no mention of sensitivity to flortaucipir F18 in the patient note.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "There is no mention of contraindication to MRI, including metal implants or claustrophobia in the patient note.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "There is no mention of current exposure to amyloid targeted therapy (ATT) in the patient note.",
+                [],
+                "not excluded"
+            ],
+            "5": [
+                "There is no mention of previous exposure to any Investigational Medicinal Product administered intrathecal (IT) or any anti-tau therapy in the patient note.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "There is no mention of a history of clinically significant back pain, back pathology, or back injury in the patient note.",
+                [],
+                "not excluded"
+            ]
+        },
+        "exclusion_criteria": [
+            "1. Has current serious or unstable illnesses including cardiovascular, hepatic, renal, gastroenterological, respiratory, endocrinologic, neurologic (other than Alzheimer's Disease), psychiatric, immunologic, or hematologic disease and other conditions that, in the investigator's opinion, could interfere with the analyses in this study; or has a life expectancy of less than (\\<)24 months.",
+            "2. Have a sensitivity to flortaucipir F18.",
+            "3. Have contraindication to magnetic resonance imaging (MRI), including claustrophobia or the presence of contraindicated metal (ferromagnetic) implants/cardiac pacemaker.",
+            "4. Have a current exposure to an amyloid targeted therapy (ATT). Prior exposure to ATTs greater than 1 year from the last dose may be permitted at the discretion of the investigator and in consultation with the sponsor.",
+            "5. Have previous exposure to any Investigational Medicinal Product administered intrathecal (IT) or previous exposure to any anti-tau therapy.",
+            "6. Have a history of clinically significant back pain, back pathology and/or back injury (for example, degenerative disease, spinal deformity or spinal surgery) that may predispose to complications or technical difficulty with lumbar puncture."
+        ]
+    },
+    "NCT06413706": {
+        "inclusion": {
+            "1": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "2": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "4": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "5": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "6": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "7": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "8": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "9": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "10": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "11": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "12": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "13": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "14": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "15": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "16": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "17": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "18": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "19": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "20": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "21": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "22": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "23": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "24": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "25": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "26": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "27": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ],
+            "28": [
+                "The criterion is not applicable as the patient is an adult male with a diagnosis not related to high-grade glioma, rather a condition with cerebral atrophy and memory loss, likely indicating a different neurological disorder. The patient note does not mention any high-grade glioma diagnosis.",
+                [],
+                "not applicable"
+            ]
+        },
+        "inclusion_criteria": [
+            "1. Biopsy proven high-grade glioma (HGG) as defined by 2016 World Health Organization (WHO) Classification Criteria, Grade 3-4 including:",
+            "2. Anaplastic oligodendroglioma.",
+            "3. Anaplastic pleomorphic xanthoastrocytoma,",
+            "4. OR as defined by the 2021 WHO Classification Criteria as molecularly characterized:",
+            "5. Non-pontine diffuse midline glioma, H3 K27-altered,",
+            "6. Diffuse hemispheric glioma, H3 G34-mutant",
+            "7. Diffuse pediatric HGG, H3/IDH-wildtype",
+            "8. Infant-type hemispheric glioma",
+            "9. High-grade astrocytoma with piloid features",
+            "10. High-grade pleomorphic xanthoastrocytoma",
+            "11. IDH-mutant diffuse glioma with homozygous cyclin- dependent kinase inhibitor 2A/B (CDKN2A/B) deletion,",
+            "12. IDH-mutant and 1p/19q co-deleted oligodendroglioma",
+            "13. IDH-mutant astrocytoma with homozygous CDKN2A/B deletion",
+            "14. Contraceptive use should be consistent with local regulations for participants in clinical studies.",
+            "15. Radiotherapy initiated within 6 weeks (+1 week) of diagnosis and administered over 6 weeks (\u00b11 week). Participants \\<3 years of age, considered not suitable for radiotherapy may be eligible.",
+            "16. Minimum of 4 weeks between completion of radiation and Cycle 1 Day 1 (C1D1).",
+            "17. Maximum of 8 weeks between completion of radiation and C1D1. Exceptional circumstances can be discussed with the medical monitor.",
+            "18. Acute effects of prior therapies must be Grade \u22641 unless deemed clinically insignificant by the investigator.",
+            "19. Adequate hematologic and organ function \u22647 days prior to C1D1",
+            "20. Life expectancy of \u22658 weeks and deemed likely to complete at least 1 cycle of treatment.",
+            "21. A performance score of \u226560 using:",
+            "22. 1. Lansky scale for participants \\<16 years",
+            "23. 2. Karnofsky scale for participants \u226516 years",
+            "24. Able to swallow and/or have a gastric/nasogastric tube.",
+            "25. Any current systemic steroid use dose must be stable or decreasing at least 7 days prior to C1D1.",
+            "26. Able and willing to adhere to study procedures, including frequent blood draws and MRI.",
+            "27. At least 28 days since any major surgery, laparoscopic procedure, or a significant traumatic injury.",
+            "28. Has a body surface area (BSA) of \u22650.2 m2."
+        ],
+        "exclusion": {
+            "2": [
+                "The patient note does not mention a diagnosis of DIPG or diffuse midline glioma located in the pons, which are the criteria for exclusion. It is highly unlikely that such a diagnosis would be missed if present, given the severity and specificity of the condition.",
+                [],
+                "not applicable"
+            ],
+            "3": [
+                "The patient note does not mention any recurrence or progression of the disease during or after radiotherapy, and there is no indication of a high-grade glioma diagnosis.",
+                [],
+                "not excluded"
+            ],
+            "4": [
+                "The patient note does not mention any history of low-grade glioma or previously treated malignancy that now meets high-grade criteria.",
+                [],
+                "not applicable"
+            ],
+            "5": [
+                "The patient note does not mention any known pathogenic somatic mutations in ALK, BRAF, or NTRK genes.",
+                [],
+                "not excluded"
+            ],
+            "6": [
+                "The patient note does not mention any prior HGG treatment other than surgery and radiotherapy (with or without concomitant temozolomide).",
+                [],
+                "not excluded"
+            ],
+            "7": [
+                "The patient note does not mention current enrollment in another trial.",
+                [],
+                "not excluded"
+            ],
+            "8": [
+                "The patient note does not mention any treatment with an investigational product within the last 30 days or 5 half-lives.",
+                [],
+                "not excluded"
+            ],
+            "9": [
+                "The patient note does not mention any prior malignancy within the previous 3 years.",
                 [],
                 "not excluded"
             ],
             "10": [
-                "There is no mention of Hepatitis C virus (HCV) status in the patient note.",
+                "The patient note does not mention any preexisting medical condition(s) that would preclude study participation.",
                 [],
                 "not excluded"
             ],
             "11": [
-                "There is no mention of active cytomegalovirus (CMV) infection in the patient note.",
+                "The patient note does not mention any serious, active, systemic infection requiring IV antibiotic, antifungal, or antiviral therapy.",
                 [],
                 "not excluded"
             ],
             "12": [
-                "The patient does not require the concurrent use of chronic systemic steroids or immunosuppressant medications. The patient note does not mention any current use of these medications.",
+                "The patient note does not mention any intolerability or hypersensitivity to temozolomide, abemaciclib, their excipients, or dacarbazine.",
                 [],
                 "not excluded"
             ],
             "13": [
-                "There is no mention of known hypersensitivity or severe reaction to pirtobrutinib, similar compounds, or excipients in the patient note.",
+                "The patient note does not mention receiving a live virus vaccine within 28 days of C1D1.",
                 [],
                 "not excluded"
             ],
             "14": [
-                "The patient has not received prior anticancer therapy. The patient note does not mention any recent anticancer therapy.",
-                [],
-                "not excluded"
-            ],
-            "15": [
-                "The patient is not pregnant or nursing. The patient note does not mention any pregnancy or breastfeeding.",
-                [],
-                "not excluded"
-            ],
-            "16": [
-                "There is no mention of any condition that would interfere with full participation in the study.",
-                [],
-                "not excluded"
-            ],
-            "17": [
-                "The patient is able to swallow and retain oral medication. The patient note does not mention any gastrointestinal issues.",
-                [],
-                "not excluded"
-            ],
-            "18": [
-                "There is no mention of a major bleeding event or grade \u2265 3 arrhythmia on prior treatment with a BTK inhibitor.",
-                [],
-                "not excluded"
-            ],
-            "19": [
-                "There is no mention of major surgery within 4 weeks prior to enrollment.",
-                [],
-                "not excluded"
-            ],
-            "20": [
-                "There is no mention of a previously diagnosed hereditary bleeding disorder.",
-                [],
-                "not excluded"
-            ],
-            "21": [
-                "The patient is not requiring therapeutic anticoagulation with warfarin or another vitamin K antagonist.",
-                [],
-                "not excluded"
-            ],
-            "22": [
-                "There is no mention of active second malignancy.",
-                [],
-                "not excluded"
-            ],
-            "23": [
-                "There is no mention of vaccination with live vaccine within 28 days prior to randomization.",
-                [],
-                "not excluded"
-            ],
-            "24": [
-                "There is no mention of history of stroke or intracranial hemorrhage within 6 months of enrollment.",
-                [],
-                "not excluded"
-            ],
-            "25": [
-                "There is no mention of history of allogeneic or autologous stem cell transplant within 60 days of enrollment.",
-                [],
-                "not excluded"
-            ],
-            "26": [
-                "There is no mention of active uncontrolled autoimmune cytopenia.",
+                "The patient note does not mention being pregnant, breastfeeding, or intending to become pregnant during the study.",
                 [],
                 "not excluded"
             ]
-        }
+        },
+        "exclusion_criteria": [
+            "1. Participants are excluded if any of the following apply:",
+            "2. Diffuse Intrinsic Pontine Glioma (DIPG) or diffuse midline glioma located in the pons.",
+            "3. Recurrent or refractory HGG including any recurrence/progression during/after radiotherapy.",
+            "4. Secondary HGG, defined as a previously treated low-grade glioma that now meets high- grade criteria, or that resulted from a previously treated malignancy.",
+            "5. Have known pathogenic somatic mutations appropriate for an anaplastic lymphoma kinase (ALK), B-rapidly accelerated fibrosarcoma (BRAF), or neurotrophic tyrosine receptor kinase (NTRK ) inhibitor, in regions where these therapies are available and deemed appropriate by the investigator.",
+            "6. Prior HGG treatment (including bevacizumab), except for surgery and radiotherapy (with or without concomitant temozolomide).",
+            "7. Current enrollment in another trial deemed incompatible with this study.",
+            "8. Treatment with an investigational product within the last 30 days or 5 half-lives (whichever is longer).",
+            "9. Prior malignancy within the previous 3 years that, per the investigator and the medical monitor, may affect interpretation of study results.",
+            "10. A preexisting medical condition(s) that, per the investigator, would preclude study participation.",
+            "11. Any serious, active, systemic infection requiring IV antibiotic, antifungal, or antiviral therapy, including acute hepatitis B or C, or Human Immunodeficiency Virus at C1D1.",
+            "12. Intolerability or hypersensitivity such as urticaria, anaphylaxis, toxic necrolysis, and/or Stevens-Johnson syndrome to temozolomide, and/or abemaciclib, their excipients, or dacarbazine.",
+            "13. Received a live virus vaccine within 28 days of C1D1.",
+            "14. Pregnant, breastfeeding, or intend to become pregnant during the study."
+        ]
     }
 }

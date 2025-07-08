@@ -12,18 +12,38 @@ load_dotenv()
 
 client = boto3.client(service_name="bedrock-runtime")
 
+# def parse_criteria(criteria):
+# 	output = ""
+# 	criteria = criteria.split("\n")
+	
+# 	idx = 0
+# 	for criterion in criteria:
+# 		criterion = criterion.strip()
+
+# 		if "inclusion criteria" in criterion.lower() or "exclusion criteria" in criterion.lower():
+# 			continue
+
+# 		if len(criterion) < 5:
+# 			continue
+	
+# 		output += f"{idx}. {criterion}\n" 
+# 		idx += 1
+# 	return output
+
+
 def parse_criteria(criteria):
 	output = ""
-	criteria = criteria.split("\n\n")
+	criteria = criteria.split("\n")
 	
-	idx = 0
+	idx = 1
 	for criterion in criteria:
 		criterion = criterion.strip()
 
 		if "inclusion criteria" in criterion.lower() or "exclusion criteria" in criterion.lower():
 			continue
 
-		if len(criterion) < 5:
+		if len(criterion) < 25: # Skip very short criteria
+			# print(f"Skipping short criterion: {criterion}")
 			continue
 	
 		output += f"{idx}. {criterion}\n" 
@@ -84,6 +104,17 @@ def get_matching_prompt(
 	return prompt, user_prompt
 
 
+def converting_to_list(criterias):
+
+	if isinstance(criterias, list):
+		return criterias
+	elif isinstance(criterias, str):
+		criterias = criterias.split("\n")
+		return [c.strip() for c in criterias if c.strip()]
+	else:
+		return []
+
+
 def trialgpt_matching(trial: dict, patient: str, model: str):
 	results = {}
 
@@ -108,6 +139,8 @@ def trialgpt_matching(trial: dict, patient: str, model: str):
 
 		try:
 			results[inc_exc] = json.loads(message)
+			key = inc_exc + "_criteria"
+			results[key] = converting_to_list(parse_criteria(trial[key]))
 		except:
 			results[inc_exc] = message
 
